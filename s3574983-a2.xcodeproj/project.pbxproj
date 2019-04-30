@@ -34,6 +34,7 @@
 		AFDF4D732278734800FCBC0A /* Coordinator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Coordinator.hpp; sourceTree = "<group>"; };
 		AFDF4D75227873C700FCBC0A /* Edge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
 		AFDF4D76227873C700FCBC0A /* Edge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Edge.hpp; sourceTree = "<group>"; };
+		AFDF4D7822787E4800FCBC0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 			children = (
 				AFDF4D67227870C500FCBC0A /* s3574983-a2 */,
 				AFDF4D66227870C500FCBC0A /* Products */,
+				AFDF4D7822787E4800FCBC0A /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
