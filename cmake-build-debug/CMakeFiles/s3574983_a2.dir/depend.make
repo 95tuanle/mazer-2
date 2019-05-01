@@ -40,5 +40,9 @@ CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o: ../s3574983-
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/Coordinator.hpp
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/Edge.hpp
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/Generator.hpp
+CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/GrowingTree.hpp
+CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/HuntAndKill.hpp
+CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/Prims.hpp
+CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/RecursiveBacktracking.hpp
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/main.cpp
 

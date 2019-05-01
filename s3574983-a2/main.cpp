@@ -30,8 +30,6 @@ void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName
                 int height);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-//    cout << "Hello, World!\n";
     getUserInput();
     return 0;
 }
@@ -39,8 +37,9 @@ int main(int argc, const char * argv[]) {
 void getUserInput() {
     string DUPLICATE_FLAG_MESSAGE = "duplication of flag occurs, please try again";
     string INVALID_INPUT_MESSAGE = "invalid input, please try again";
-    string WRONG_FORMAT_G_FLAG = "invalid input format, please follow '--g seed width height'";
-    string WRONG_FORMAT_G_OPT_FLAG = "invalid input format, please follow '-g seed width height' or '-g width height'";
+    string WRONG_FORMAT_G_FLAG = "invalid input format, please follow '--gh or --gg or --gp or --gr seed width height'";
+    string WRONG_FORMAT_G_OPT_FLAG =
+            "invalid input format, please follow '-gh or -gg or -gp or -gr seed width height' or '-gh or -gg or -gp or -gr width height'";
     string NOT_LARGER_THAN_ZERO = "your specifications must be larger than 0";
     string EXIT = "exit";
     string userInput;
@@ -48,8 +47,14 @@ void getUserInput() {
     while (userInput != EXIT) { // check if user input is exit
         vector<string> userInputVector; // create vector to store user input
         // userInputVector.clear();
-        pair<int, bool> hasGen;
-        pair<int, bool> hasGenOpt;
+        pair<int, bool> hasHuntAndKill;
+        pair<int, bool> hasHuntAndKillOpt;
+        pair<int, bool> hasGrowingTree;
+        pair<int, bool> hasGrowingTreeOpt;
+        pair<int, bool> hasPrims;
+        pair<int, bool> hasPrimsOpt;
+        pair<int, bool> hasRecursiveBacktracking;
+        pair<int, bool> hasRecursiveBacktrackingOpt;
         pair<int, bool> hasLoadBinary;
         pair<int, bool> hasLoadSvg;
         pair<int, bool> hasSaveBinary;
@@ -70,20 +75,80 @@ void getUserInput() {
         
         // loop to check flag
         for (int i = 0; i < userInputVector.size(); ++i) {
-            if (userInputVector[i] == "--g") {
-                if (!hasGen.second) {
-                    hasGen.first = i;
-                    hasGen.second = true;
+            if (userInputVector[i] == "--gh") {
+                if (!hasHuntAndKill.second) {
+                    hasHuntAndKill.first = i;
+                    hasHuntAndKill.second = true;
                     isValidInputFlag = true;
                 } else {
                     isValidInputFlag = false;
                     printLineWith(DUPLICATE_FLAG_MESSAGE);
                     break;
                 }
-            } else if (userInputVector[i] == "-g") {
-                if (!hasGenOpt.second) {
-                    hasGenOpt.first = i;
-                    hasGenOpt.second = true;
+            } else if (userInputVector[i] == "-gh") {
+                if (!hasHuntAndKillOpt.second) {
+                    hasHuntAndKillOpt.first = i;
+                    hasHuntAndKillOpt.second = true;
+                    isValidInputFlag = true;
+                } else {
+                    isValidInputFlag = false;
+                    printLineWith(DUPLICATE_FLAG_MESSAGE);
+                    break;
+                }
+            } else if (userInputVector[i] == "--gg") {
+                if (!hasGrowingTree.second) {
+                    hasGrowingTree.first = i;
+                    hasGrowingTree.second = true;
+                    isValidInputFlag = true;
+                } else {
+                    isValidInputFlag = false;
+                    printLineWith(DUPLICATE_FLAG_MESSAGE);
+                    break;
+                }
+            } else if (userInputVector[i] == "-gg") {
+                if (!hasGrowingTreeOpt.second) {
+                    hasGrowingTreeOpt.first = i;
+                    hasGrowingTreeOpt.second = true;
+                    isValidInputFlag = true;
+                } else {
+                    isValidInputFlag = false;
+                    printLineWith(DUPLICATE_FLAG_MESSAGE);
+                    break;
+                }
+            } else if (userInputVector[i] == "--gp") {
+                if (!hasPrims.second) {
+                    hasPrims.first = i;
+                    hasPrims.second = true;
+                    isValidInputFlag = true;
+                } else {
+                    isValidInputFlag = false;
+                    printLineWith(DUPLICATE_FLAG_MESSAGE);
+                    break;
+                }
+            } else if (userInputVector[i] == "-gp") {
+                if (!hasPrimsOpt.second) {
+                    hasPrimsOpt.first = i;
+                    hasPrimsOpt.second = true;
+                    isValidInputFlag = true;
+                } else {
+                    isValidInputFlag = false;
+                    printLineWith(DUPLICATE_FLAG_MESSAGE);
+                    break;
+                }
+            } else if (userInputVector[i] == "--gr") {
+                if (!hasRecursiveBacktracking.second) {
+                    hasRecursiveBacktracking.first = i;
+                    hasRecursiveBacktracking.second = true;
+                    isValidInputFlag = true;
+                } else {
+                    isValidInputFlag = false;
+                    printLineWith(DUPLICATE_FLAG_MESSAGE);
+                    break;
+                }
+            } else if (userInputVector[i] == "-gr") {
+                if (!hasRecursiveBacktrackingOpt.second) {
+                    hasRecursiveBacktrackingOpt.first = i;
+                    hasRecursiveBacktrackingOpt.second = true;
                     isValidInputFlag = true;
                 } else {
                     isValidInputFlag = false;
@@ -138,7 +203,7 @@ void getUserInput() {
             vector<Edge> edgesVector;
             int mainWidth = 0;
             int mainHeight = 0;
-            if (hasGen.second) {
+            if (hasHuntAndKill.second) {
                 int seed = 0;
                 int width = 0;
                 int height = 0;
@@ -147,9 +212,9 @@ void getUserInput() {
                 // printLineWithInt(height);
                 try {
                     // convert input to int
-                    seed = stoi(userInputVector[hasGen.first+1]);
-                    width = stoi(userInputVector[hasGen.first+2]);
-                    height = stoi(userInputVector[hasGen.first+3]);
+                    seed = stoi(userInputVector[hasHuntAndKill.first+1]);
+                    width = stoi(userInputVector[hasHuntAndKill.first+2]);
+                    height = stoi(userInputVector[hasHuntAndKill.first+3]);
                     // cout << userInputVector[hasGen.first+1];
                     // cout << userInputVector[hasGen.first+2];
                     // cout << userInputVector[hasGen.first+3];
@@ -158,7 +223,7 @@ void getUserInput() {
                     // printLineWith(userInputVector[hasGen.first+3]);
                     if (seed > 0 && width > 0 && height > 0) {
                         canCallSaveFunctions = true;
-                        printLineWith("calling generating func");
+                        printLineWith("calling hunt and kill func");
                         mainWidth = width;
                         mainHeight = height;
                         HuntAndKill huntAndKill;
@@ -177,25 +242,26 @@ void getUserInput() {
                     printLineWith(WRONG_FORMAT_G_FLAG);
                 }
             }
-            if (hasGenOpt.second) {
+            if (hasHuntAndKillOpt.second) {
                 int firstField = 0;
                 int secondField = 0;
                 // printLineWithInt(firstField);
                 // printLineWithInt(secondField);
                 try {
                     // convert input to int
-                    firstField = stoi(userInputVector[hasGenOpt.first+1]);
-                    secondField = stoi(userInputVector[hasGenOpt.first+2]);
+                    firstField = stoi(userInputVector[hasHuntAndKillOpt.first+1]);
+                    secondField = stoi(userInputVector[hasHuntAndKillOpt.first+2]);
                     // printLineWithInt(firstField);
                     // printLineWithInt(secondField);
                     int thirdField = 0;
                     // printLineWithInt(thirdField);
                     try {
-                        thirdField = stoi(userInputVector[hasGenOpt.first+3]);
+                        cout << userInputVector[hasHuntAndKillOpt.first+3] << endl;
+                        thirdField = stoi(userInputVector[hasHuntAndKillOpt.first+3]);
                         // printLineWithInt(thirdField);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling generating with optional seed func");
+                            printLineWith("calling hunt and kill with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
                             HuntAndKill huntAndKill;
@@ -212,7 +278,7 @@ void getUserInput() {
                     } catch (...) {
                         if (firstField > 0 && secondField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling generating without optional seed func");
+                            printLineWith("calling hunt and kill without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
                             HuntAndKill huntAndKill;
@@ -232,6 +298,245 @@ void getUserInput() {
                     printLineWith(WRONG_FORMAT_G_OPT_FLAG);
                 }
             }
+            if (hasGrowingTree.second) {
+                int seed = 0;
+                int width = 0;
+                int height = 0;
+                try {
+                    // convert input to int
+                    seed = stoi(userInputVector[hasGrowingTree.first+1]);
+                    width = stoi(userInputVector[hasGrowingTree.first+2]);
+                    height = stoi(userInputVector[hasGrowingTree.first+3]);
+                    if (seed > 0 && width > 0 && height > 0) {
+                        canCallSaveFunctions = true;
+                        printLineWith("calling growing tree func");
+                        mainWidth = width;
+                        mainHeight = height;
+                        GrowingTree growingTree;
+                        Generator *generator = &growingTree;
+                        generator->setSeed(seed);
+                        generator->setWidth(width);
+                        generator->setHeight(height);
+                        generator->setWithSeed(true);
+                        edgesVector = growingTree.generate();
+                    } else {
+                        canCallSaveFunctions = false;
+                        printLineWith(NOT_LARGER_THAN_ZERO);
+                    }
+                } catch (...) {
+                    canCallSaveFunctions = false;
+                    printLineWith(WRONG_FORMAT_G_FLAG);
+                }
+            }
+            if (hasGrowingTreeOpt.second) {
+                int firstField = 0;
+                int secondField = 0;
+                try {
+                    // convert input to int
+                    firstField = stoi(userInputVector[hasGrowingTreeOpt.first+1]);
+                    secondField = stoi(userInputVector[hasGrowingTreeOpt.first+2]);
+                    int thirdField = 0;
+                    try {
+                        thirdField = stoi(userInputVector[hasGrowingTreeOpt.first+3]);
+                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                            canCallSaveFunctions = true;
+                            printLineWith("calling growing tree with optional seed func");
+                            mainWidth = secondField;
+                            mainHeight = thirdField;
+                            GrowingTree growingTree;
+                            Generator *generator = &growingTree;
+                            generator->setSeed(firstField);
+                            generator->setWidth(secondField);
+                            generator->setHeight(thirdField);
+                            generator->setWithSeed(true);
+                            edgesVector = growingTree.generate();
+                        } else {
+                            canCallSaveFunctions = false;
+                            printLineWith(NOT_LARGER_THAN_ZERO);
+                        }
+                    } catch (...) {
+                        if (firstField > 0 && secondField > 0) {
+                            canCallSaveFunctions = true;
+                            printLineWith("calling growing tree without optional seed func");
+                            mainWidth = firstField;
+                            mainHeight = secondField;
+                            GrowingTree growingTree;
+                            Generator *generator = &growingTree;
+                            generator->setSeed(0);
+                            generator->setWidth(firstField);
+                            generator->setHeight(secondField);
+                            generator->setWithSeed(false);
+                            edgesVector = growingTree.generate();
+                        } else {
+                            canCallSaveFunctions = false;
+                            printLineWith(NOT_LARGER_THAN_ZERO);
+                        }
+                    }
+                } catch (...) {
+                    canCallSaveFunctions = false;
+                    printLineWith(WRONG_FORMAT_G_OPT_FLAG);
+                }
+            }
+            
+            if (hasPrims.second) {
+                int seed = 0;
+                int width = 0;
+                int height = 0;
+                try {
+                    // convert input to int
+                    seed = stoi(userInputVector[hasPrims.first+1]);
+                    width = stoi(userInputVector[hasPrims.first+2]);
+                    height = stoi(userInputVector[hasPrims.first+3]);
+                    if (seed > 0 && width > 0 && height > 0) {
+                        canCallSaveFunctions = true;
+                        printLineWith("calling prim's func");
+                        mainWidth = width;
+                        mainHeight = height;
+                        Prims prims;
+                        Generator *generator = &prims;
+                        generator->setSeed(seed);
+                        generator->setWidth(width);
+                        generator->setHeight(height);
+                        generator->setWithSeed(true);
+                        edgesVector = prims.generate();
+                    } else {
+                        canCallSaveFunctions = false;
+                        printLineWith(NOT_LARGER_THAN_ZERO);
+                    }
+                } catch (...) {
+                    canCallSaveFunctions = false;
+                    printLineWith(WRONG_FORMAT_G_FLAG);
+                }
+            }
+            if (hasPrimsOpt.second) {
+                int firstField = 0;
+                int secondField = 0;
+                try {
+                    // convert input to int
+                    firstField = stoi(userInputVector[hasPrimsOpt.first+1]);
+                    secondField = stoi(userInputVector[hasPrimsOpt.first+2]);
+                    int thirdField = 0;
+                    try {
+                        thirdField = stoi(userInputVector[hasPrimsOpt.first+3]);
+                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                            canCallSaveFunctions = true;
+                            printLineWith("calling prim's with optional seed func");
+                            mainWidth = secondField;
+                            mainHeight = thirdField;
+                            Prims prims;
+                            Generator *generator = &prims;
+                            generator->setSeed(firstField);
+                            generator->setWidth(secondField);
+                            generator->setHeight(thirdField);
+                            generator->setWithSeed(true);
+                            edgesVector = prims.generate();
+                        } else {
+                            canCallSaveFunctions = false;
+                            printLineWith(NOT_LARGER_THAN_ZERO);
+                        }
+                    } catch (...) {
+                        if (firstField > 0 && secondField > 0) {
+                            canCallSaveFunctions = true;
+                            printLineWith("calling prim's without optional seed func");
+                            mainWidth = firstField;
+                            mainHeight = secondField;
+                            Prims prims;
+                            Generator *generator = &prims;
+                            generator->setSeed(0);
+                            generator->setWidth(firstField);
+                            generator->setHeight(secondField);
+                            generator->setWithSeed(false);
+                            edgesVector = prims.generate();
+                        } else {
+                            canCallSaveFunctions = false;
+                            printLineWith(NOT_LARGER_THAN_ZERO);
+                        }
+                    }
+                } catch (...) {
+                    canCallSaveFunctions = false;
+                    printLineWith(WRONG_FORMAT_G_OPT_FLAG);
+                }
+            }
+            if (hasRecursiveBacktracking.second) {
+                int seed = 0;
+                int width = 0;
+                int height = 0;
+                try {
+                    // convert input to int
+                    seed = stoi(userInputVector[hasRecursiveBacktracking.first+1]);
+                    width = stoi(userInputVector[hasRecursiveBacktracking.first+2]);
+                    height = stoi(userInputVector[hasRecursiveBacktracking.first+3]);
+                    if (seed > 0 && width > 0 && height > 0) {
+                        canCallSaveFunctions = true;
+                        printLineWith("calling recursive backtracking func");
+                        mainWidth = width;
+                        mainHeight = height;
+                        RecursiveBacktracking recursiveBacktracking;
+                        Generator *generator = &recursiveBacktracking;
+                        generator->setSeed(seed);
+                        generator->setWidth(width);
+                        generator->setHeight(height);
+                        generator->setWithSeed(true);
+                        edgesVector = recursiveBacktracking.generate();
+                    } else {
+                        canCallSaveFunctions = false;
+                        printLineWith(NOT_LARGER_THAN_ZERO);
+                    }
+                } catch (...) {
+                    canCallSaveFunctions = false;
+                    printLineWith(WRONG_FORMAT_G_FLAG);
+                }
+            }
+            if (hasRecursiveBacktrackingOpt.second) {
+                int firstField = 0;
+                int secondField = 0;
+                try {
+                    // convert input to int
+                    firstField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+1]);
+                    secondField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+2]);
+                    int thirdField = 0;
+                    try {
+                        thirdField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+3]);
+                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                            canCallSaveFunctions = true;
+                            printLineWith("calling recursive backtracking with optional seed func");
+                            mainWidth = secondField;
+                            mainHeight = thirdField;
+                            RecursiveBacktracking recursiveBacktracking;
+                            Generator *generator = &recursiveBacktracking;
+                            generator->setSeed(firstField);
+                            generator->setWidth(secondField);
+                            generator->setHeight(thirdField);
+                            generator->setWithSeed(true);
+                            edgesVector = recursiveBacktracking.generate();
+                        } else {
+                            canCallSaveFunctions = false;
+                            printLineWith(NOT_LARGER_THAN_ZERO);
+                        }
+                    } catch (...) {
+                        if (firstField > 0 && secondField > 0) {
+                            canCallSaveFunctions = true;
+                            printLineWith("calling recursive backtracking without optional seed func");
+                            mainWidth = firstField;
+                            mainHeight = secondField;
+                            RecursiveBacktracking recursiveBacktracking;
+                            Generator *generator = &recursiveBacktracking;
+                            generator->setSeed(0);
+                            generator->setWidth(firstField);
+                            generator->setHeight(secondField);
+                            generator->setWithSeed(false);
+                            edgesVector = recursiveBacktracking.generate();
+                        } else {
+                            canCallSaveFunctions = false;
+                            printLineWith(NOT_LARGER_THAN_ZERO);
+                        }
+                    }
+                } catch (...) {
+                    canCallSaveFunctions = false;
+                    printLineWith(WRONG_FORMAT_G_OPT_FLAG);
+                }
+            }
+            
             if (hasLoadBinary.second) {
                 // TODO build load binary function
                 // canCallSaveFunctions = true;
@@ -243,12 +548,13 @@ void getUserInput() {
                 printLineWith("calling load SVG func");
             }
             
-            if ((hasGen.second || hasGenOpt.second || hasLoadBinary.second || hasLoadSvg.second) && canCallSaveFunctions) {
+            if ((hasHuntAndKill.second || hasHuntAndKillOpt.second || hasGrowingTree.second ||
+            hasGrowingTreeOpt.second || hasPrims.second || hasPrimsOpt.second || hasRecursiveBacktracking.second ||
+            hasRecursiveBacktrackingOpt.second || hasLoadBinary.second || hasLoadSvg.second) && canCallSaveFunctions) {
                 if (hasSaveBinary.second) {
                     // TODO check file format and validate user input
                     saveBinary(userInputVector[hasSaveBinary.first + 1], edgesVector, mainWidth, mainHeight);
                     printLineWith("calling save binary func");
-                    
                 }
                 if (hasSaveSvg.second) {
                     // TODO check file format and validate user input
