@@ -12,6 +12,10 @@
 #include "Generator.hpp"
 #include "Coordinator.hpp"
 #include "Edge.hpp"
+#include "HuntAndKill.hpp"
+#include "GrowingTree.hpp"
+#include "Prims.hpp"
+#include "RecursiveBacktracking.hpp"
 
 using namespace std;
 
@@ -28,6 +32,7 @@ void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    cout << "Hello, World!\n";
+    getUserInput();
     return 0;
 }
 
@@ -156,7 +161,13 @@ void getUserInput() {
                         printLineWith("calling generating func");
                         mainWidth = width;
                         mainHeight = height;
-//                        edgesVector = mazeGenerator(seed, width, height, true);
+                        HuntAndKill huntAndKill;
+                        Generator *generator = &huntAndKill;
+                        generator->setSeed(seed);
+                        generator->setWidth(width);
+                        generator->setHeight(height);
+                        generator->setWithSeed(true);
+                        edgesVector = huntAndKill.generate();
                     } else {
                         canCallSaveFunctions = false;
                         printLineWith(NOT_LARGER_THAN_ZERO);
@@ -187,7 +198,13 @@ void getUserInput() {
                             printLineWith("calling generating with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
-//                            edgesVector = mazeGenerator(firstField, secondField, thirdField, true);
+                            HuntAndKill huntAndKill;
+                            Generator *generator = &huntAndKill;
+                            generator->setSeed(firstField);
+                            generator->setWidth(secondField);
+                            generator->setHeight(thirdField);
+                            generator->setWithSeed(true);
+                            edgesVector = huntAndKill.generate();
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -198,7 +215,13 @@ void getUserInput() {
                             printLineWith("calling generating without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
-//                            edgesVector = mazeGenerator(0, firstField, secondField, false);
+                            HuntAndKill huntAndKill;
+                            Generator *generator = &huntAndKill;
+                            generator->setSeed(0);
+                            generator->setWidth(firstField);
+                            generator->setHeight(secondField);
+                            generator->setWithSeed(false);
+                            edgesVector = huntAndKill.generate();
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
