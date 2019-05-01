@@ -12,6 +12,290 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c214592-da9c-40c5-8199-330848a1bb14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/36cab2198862c62493b6ccb2240af3e4-desc.xcbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/36cab2198862c62493b6ccb2240af3e4-manifest.xcbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-8d4fc2dfe9da7586103d5b9f4226fdfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/project/PROJECT@v8_mod=1556727544_hash=9a27d44642e4011e8b76f853a4d10d63-json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/target/TARGET@v8_hash=00F22A1D4DD922EEC3908E541F9D6F3A-json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/workspace/WORKSPACE@v8_mod=1556625733_hash=8d4fc2dfe9da7586103d5b9f4226fdfa_subobjects=7A97FAFF277E346788C2632E5091F51E-json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/e44d1ee6ad8be47dce04c4cbfe356f0b-desc.xcbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/e44d1ee6ad8be47dce04c4cbfe356f0b-manifest.xcbuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/DerivedSources/Entitlements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Coordinator.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Coordinator.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Coordinator.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Edge.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Edge.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Edge.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Generator.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Generator.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Generator.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/HuntAndKill.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/HuntAndKill.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/HuntAndKill.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2.LinkFileList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2_dependency_info.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/all-product-headers.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-all-non-framework-target-headers.hmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-all-target-headers.hmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-generated-files.hmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-own-target-headers.hmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-project-headers.hmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2.hmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2.xcent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Build/Products/Debug/tuanle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/09/__threading_support-MI8TZAZPSS09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/0B/Prims.hpp-3RJJ4IYIBBU0B" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/0K/_pthread_cond_t.h-PUHY1Z8NPQ0K" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/0S/types.h-QC2SQDYSFU0S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/0U/_uid_t.h-D103XDENKS0U" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/0Y/main.cpp-2KVX3LVPJ00Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/12/_ct_rune_t.h-P8TCD6YZIA12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/14/_key_t.h-2G0RTFD7VBJ14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/14/stdio.h-3DYV4DCBSKG14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/19/main.cpp-25H9QVRFZT619" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1B/_string.h-3LJQTJP0KAT1B" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1S/_wctrans_t.h-ACF3UNDF6T1S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1U/wchar.h-3M5NETJNVFM1U" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1X/signal.h-1QUHSR5C3RQ1X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1Y/nl_types.h-20YEDP6LMCJ1Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/23/stddef.h-1ZMAZXN5O5Q23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2A/xlocale.h-LHW1ESWCHU2A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2D/main.cpp-1O3SVFIA0ZX2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2H/_mbstate_t.h-28EFKR23AKN2H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2I/__config-SN96N4X9W82I" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2J/iostream-3QK31R2PFXC2J" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2J/wctype.h-DLTMBFNIJ72J" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2Q/qos.h-362OMVMAA5U2Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2R/sched.h-Y9H3JOT8982R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2T/_wint_t.h-DUT9R4HOTE2T" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2T/main.cpp-37RKKP4QBZP2T" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2V/Edge.hpp-3RGGFGLTFH12V" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3A/_nl_item.h-3V30ESPUC2P3A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3D/_pthread_once_t.h-1A3OKQVYGBL3D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3H/_in_addr_t.h-1RR87UXKMB73H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3N/_mcontext.h-3KMP98FDL043N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3R/main.cpp-2JMSCNDXP293R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3V/cstdlib-2BI24BIXAQ43V" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3V/stdarg.h-QAO9KFAFSY3V" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3X/istream-2V19U67SMUK3X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4D/_ctype.h-QLQYWZL8J24D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4F/stdexcept-YZX08HFVI74F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4O/errno.h-24IRI8AULY94O" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4T/_u_char.h-237CQ9JNKUJ4T" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/50/__functional_base-3CF1B595LRC50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/57/_timeval.h-1D27IFCC8XP57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5D/typeinfo-1OEQ89AWBVT5D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5G/main.cpp-3MY5WO35EAI5G" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5S/runetype.h-FW8KM0QB7P5S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5T/_ctype.h-3PGBCBRAPHY5T" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5Z/_va_list.h-2OG2NIZTBB55Z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/60/_pid_t.h-NFB785PSC460" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/60/_size_t.h-23MRM7NRNTE60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/63/_id_t.h-1B5DD6UD8WB63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/65/atomic-L6K15UBX1J65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/66/ostream-18UOSXLHHJ866" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/67/Generator.hpp-2AT0ZBH3Y1O67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/6D/memory-E89G5QBVEF6D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/6S/main.cpp-2HOU17YA6ZM6S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/7K/_rune_t.h-168SKJ051DH7K" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/7R/_types.h-BWHPIHT3AT7R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/81/_off_t.h-AE33YK6WWT81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/83/GrowingTree.hpp-CORBEV4VQE83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/83/wchar.h-3SQOQYY43FH83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/85/_stdio.h-OKGEMPJQD485" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8B/_fsfilcnt_t.h-AASFH0LES38B" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8J/_pthread_key_t.h-WES81ZELU98J" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8J/main.cpp-2HG40SR254H8J" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8J/main.cpp-HUJ1RH8FK78J" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8O/cstdint-1EN8TUQ30UN8O" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8T/_pthread_t.h-W7LCIFISM78T" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/97/cstring-2YZD3YFIPVY97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9E/locale-3VWJ8FOU7S29E" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9G/strings.h-1QANIQ4CSB69G" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9H/main.cpp-M33D69MD0J9H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9O/__bit_reference-3S68TPDP97B9O" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9R/main.cpp-1Y2XM6Y2JG89R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/A1/main.cpp-SWU4CTXGQ8A1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/A2/_wctype.h-OFP2TYN1EDA2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/AB/__string-8O3QQYWMLAAB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/B3/main.cpp-15N57Z87V3YB3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/B5/_int16_t.h-421XHTVWRTB5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/BV/tuple-3SGRRPYGPYBBV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/BZ/_intptr_t.h-KVW0I9WQJZBZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/BZ/fstream-205V7SQIOB6BZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/C0/_blksize_t.h-KWRRSXDVKLC0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/CA/__stddef_max_align_t.h-XM6GLEQW65CA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/CC/_time_t.h-17OBUT70BDCC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/D3/vector-3OB7X8OYY7AD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/DF/signal.h-18VU1I1UBBGDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/DL/_u_int16_t.h-34I7NDL9MUDL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/DM/qos.h-2PGO0EX4U7ADM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/DN/RecursiveBacktracking.cpp-2Y30RHT9921DN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/DR/alloca.h-2P7XRU8DID0DR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/DZ/_pthread_attr_t.h-2Q6BE87QG8WDZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/E2/_int32_t.h-1ZK5NRBQG4RE2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/E8/_errno_t.h-1TRI8C0GCPJE8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/EJ/main.cpp-3ND4J6VS00UEJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FB/main.cpp-DMI8G15591FB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FD/_uintmax_t.h-1WVHJK76T8OFD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FO/Prims.cpp-1165363FH71FO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FP/time.h-17DIUBG8KKBFP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FT/chrono-RPCE3XPQPOFT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FZ/Coordinator.cpp-G7GM1WIJGHFZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/G5/_suseconds_t.h-2PCO0HRYUOG5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/G7/main.cpp-1EUZ6IRG68UG7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/G9/ios-ZSD7RKH7KZG9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/GD/_pthread_mutex_t.h-Y6N3475HL6GD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/GE/exception-397J1DPCCCYGE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/GR/_ssize_t.h-SHII17S80EGR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/H3/_timespec.h-2PPF9UP65PBH3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/H5/ctime-O8QP3O314JH5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/HB/wait.h-1NNAAK8NLYWHB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/HF/main.cpp-FZJOROG6DHF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/HI/_wchar.h-38CKEYFRPV3HI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/HK/_mode_t.h-6N1K3UV9DKHK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/HR/_in_port_t.h-1B40Z9Y1OHXHR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/I3/__locale-19OMVKQ4AANI3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/IA/_intmax_t.h-1LGZ3LVEMN2IA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/IL/main.cpp-19YLJ4GO6G0IL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/IP/assert.h-2S0IJXH4B52IP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/IU/__mutex_base-3R4EA01ZTO9IU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/IZ/_wctype_t.h-IMIGO8XOFNIZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JA/_clock_t.h-3SCF4Y8NGUAJA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JF/_pthread_rwlock_t.h-2P8E3IHJ1LXJF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JG/_ucontext.h-GFUS4Z4EYYJG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JN/_u_int.h-YG0VZO7KJAJN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JV/resource.h-33JDKR4IMK6JV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JX/_mach_port_t.h-2UHU3OWSMBQJX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JX/main.cpp-3IR0H4DL3CAJX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/JX/new-2S3AW8T3I47JX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/K1/Generator.cpp-2FJXHFRIIPYK1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/KA/_ino_t.h-2G148CW54RVKA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/KG/bitset-456YP6CKN1KG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/L2/_caddr_t.h-147A8868ERWL2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/L6/main.cpp-32DTXF8N37TL6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/L6/types.h-36WTE5OAU0ZL6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LA/_blkcnt_t.h-ATEZ89HLANLA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LG/algorithm-158329VKL50LG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LN/main.cpp-19E219PECG8LN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LS/cwctype-5WCGW8F221LS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LS/system_error-BW4A2REY0HLS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LU/pthread.h-2TMFEB8GHUQLU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MA/main.cpp-2IUJ40FOKT1MA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MG/string_view-B6FNHOZ4LNMG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/ML/main.cpp-6QYJ8NFPHRML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MM/main.cpp-3FZYYW82LFEMM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MN/cstdio-1A06PDDYRB7MN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MR/_wctype.h-3KO066MA9CUMR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MV/_OSByteOrder.h-1R66IUTFQ7VMV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MW/HuntAndKill.cpp-ET9MBAXEFIMW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/N5/_xlocale.h-2VUIJADDSBPN5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NA/_fd_def.h-2GK6C7FPQ94NA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NA/functional-1D4NEJOPVZHNA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NI/__nullptr-GI3DLAEFLKNI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NU/main.cpp-2SEHGQTS5YSNU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NZ/stdlib.h-3VL39BPPC1NZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/O1/_structs.h-219ESXFJL9WO1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/O2/main.cpp-1A6PZ9589FDO2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/OG/_sigaltstack.h-HNTCM4XOODOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/OJ/utility-3AB4AUPYX7IOJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/OK/cctype-1W9FTZV1PD2OK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/OO/__tuple-15V1UC7AP70OO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/PJ/_int64_t.h-2IJEX5IL3DGPJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/PU/main.cpp-21VJ9HPF6N9PU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Q4/_nlink_t.h-18J8Q84H8R4Q4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Q8/_ino64_t.h-28GTZBOKQMKQ8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QE/_malloc.h-14XPEZL7UE6QE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QF/stdio.h-1EXDIYF6B2EQF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QI/main.cpp-350XL2YZY8GQI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QN/_stdlib.h-HQ0VXCVX73QN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QU/main.cpp-2BSXOL4MMLHQU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/R7/__wctype.h-BR5CKKIW9OR7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/RF/limits-2QWSQUTFRA3RF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/RP/Coordinator.hpp-8AFOAQ7Q1TRP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/RR/cstddef-2HB45I8DGIZRR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/RZ/iosfwd-1SUPVTSCXU5RZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/S4/_types.h-QBDYOQWKVUS4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/S4/main.cpp-3QFEB887G58S4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/S7/type_traits-ETDFO80UA1S7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/S8/__debug-2HEA4I0V95BS8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/SB/main.cpp-3C8HQEPAM6MSB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/SM/_time.h-OY1WWJLSPTSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/SR/stdint.h-5E5WXBPFGCSR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/T2/_pthread_condattr_t.h-1KJFTV1NPJET2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/T2/_uint8_t.h-2XRBTIX0AAQT2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/T3/main.cpp-1NTX5N4RL6DT3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/T9/iterator-3BCQ02B32ERT9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/TL/HuntAndKill.hpp-1LF25QSNZYBTL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/TM/_int8_t.h-ZAD03J2Y9ATM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/TQ/GrowingTree.cpp-2RHANFVPL0TQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/TS/_u_int32_t.h-1HEVC2RHODNTS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/TW/main.cpp-20VJPI1R3DGTW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/U0/stdlib.h-18B2GCL22TOU0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/U7/_uint64_t.h-J7AA380QTHU7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/U7/string-H22N0U8L4RU7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/UE/_u_int8_t.h-1JAGJ4OENKKUE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/UG/_gid_t.h-30OPSY6Q340UG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/US/_dev_t.h-7QK1F6JOY3US" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/UW/_useconds_t.h-162K2A25TXQUW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/V1/_uint16_t.h-A2QPR8882XV1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/V4/mutex-3PT24BFIJ93V4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/VM/_u_int64_t.h-2A20XKVI1Y9VM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/VP/_uint32_t.h-152L297DHSQVP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/VZ/string.h-2MRDUOPPIY0VZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/W1/_pthread_mutexattr_t.h-2NZ9OF01SX0W1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/W1/initializer_list-ABU2L8HNWWW1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/WC/_stdio.h-3E2EJ4D3S8LWC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/WE/Edge.cpp-2COIFC3UFKSWE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/WI/string.h-7SE7H7XVJNWI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/WP/_pthread_rwlockattr_t.h-15446MBE1AZWP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/X5/_fsblkcnt_t.h-7AXHG5NVPHX5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/X6/streambuf-TMV6RWOXJWX6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/XA/_locale.h-1BKRM4P6V9YXA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/XK/_uintptr_t.h-1DR8717NVFXXK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/XY/_pthread_types.h-2AFXSAJGPPOXY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/XZ/locale.h-UGQPYKBS39XZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Y0/sstream-248KN1QL4B1Y0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Y2/ratio-2NWCBOT3SLCY2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/YC/cwchar-OG5N51P5DRYC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/YH/__split_buffer-2USKWO297PVYH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/YI/RecursiveBacktracking.hpp-2D3WOZ8IQSZYI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/YV/__errc-18E88FCWTJQYV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/YY/_u_short.h-2L4KNL1YSU5YY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/ZL/_sigset_t.h-1K2JZRHK74KZL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/ZU/_types.h-3KWMKBBEXPYZU" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Coordinator.o-1PRPUMHOT57F6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Edge.o-2C6CLGYLMY31K" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Generator.o-2J1J27PWW83LW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/HuntAndKill.o-MLQRZ2O4AJMQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Prims.o-1807JYSK3BO7V" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/RecursiveBacktracking.o-296AHFN36E312" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/s3574983_a2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/s3574983_a2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -96,18 +380,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556711079203</updated>
-      <workItem from="1556711080608" duration="5552000" />
+      <workItem from="1556711080608" duration="5698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5552000" />
+    <option name="totallyTimeSpent" value="5698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22023809" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22588523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.5020408" />
@@ -117,7 +401,7 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
