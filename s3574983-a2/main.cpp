@@ -256,7 +256,6 @@ void getUserInput() {
                     int thirdField = 0;
                     // printLineWithInt(thirdField);
                     try {
-                        cout << userInputVector[hasHuntAndKillOpt.first+3] << endl;
                         thirdField = stoi(userInputVector[hasHuntAndKillOpt.first+3]);
                         // printLineWithInt(thirdField);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
