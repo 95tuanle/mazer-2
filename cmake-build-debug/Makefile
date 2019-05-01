@@ -204,6 +204,114 @@ s3574983-a2/Generator.cpp.s:
 	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.s
 .PHONY : s3574983-a2/Generator.cpp.s
 
+s3574983-a2/GrowingTree.o: s3574983-a2/GrowingTree.cpp.o
+
+.PHONY : s3574983-a2/GrowingTree.o
+
+# target to build an object file
+s3574983-a2/GrowingTree.cpp.o:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o
+.PHONY : s3574983-a2/GrowingTree.cpp.o
+
+s3574983-a2/GrowingTree.i: s3574983-a2/GrowingTree.cpp.i
+
+.PHONY : s3574983-a2/GrowingTree.i
+
+# target to preprocess a source file
+s3574983-a2/GrowingTree.cpp.i:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.i
+.PHONY : s3574983-a2/GrowingTree.cpp.i
+
+s3574983-a2/GrowingTree.s: s3574983-a2/GrowingTree.cpp.s
+
+.PHONY : s3574983-a2/GrowingTree.s
+
+# target to generate assembly for a file
+s3574983-a2/GrowingTree.cpp.s:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.s
+.PHONY : s3574983-a2/GrowingTree.cpp.s
+
+s3574983-a2/HuntAndKill.o: s3574983-a2/HuntAndKill.cpp.o
+
+.PHONY : s3574983-a2/HuntAndKill.o
+
+# target to build an object file
+s3574983-a2/HuntAndKill.cpp.o:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o
+.PHONY : s3574983-a2/HuntAndKill.cpp.o
+
+s3574983-a2/HuntAndKill.i: s3574983-a2/HuntAndKill.cpp.i
+
+.PHONY : s3574983-a2/HuntAndKill.i
+
+# target to preprocess a source file
+s3574983-a2/HuntAndKill.cpp.i:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.i
+.PHONY : s3574983-a2/HuntAndKill.cpp.i
+
+s3574983-a2/HuntAndKill.s: s3574983-a2/HuntAndKill.cpp.s
+
+.PHONY : s3574983-a2/HuntAndKill.s
+
+# target to generate assembly for a file
+s3574983-a2/HuntAndKill.cpp.s:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.s
+.PHONY : s3574983-a2/HuntAndKill.cpp.s
+
+s3574983-a2/Prims.o: s3574983-a2/Prims.cpp.o
+
+.PHONY : s3574983-a2/Prims.o
+
+# target to build an object file
+s3574983-a2/Prims.cpp.o:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o
+.PHONY : s3574983-a2/Prims.cpp.o
+
+s3574983-a2/Prims.i: s3574983-a2/Prims.cpp.i
+
+.PHONY : s3574983-a2/Prims.i
+
+# target to preprocess a source file
+s3574983-a2/Prims.cpp.i:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.i
+.PHONY : s3574983-a2/Prims.cpp.i
+
+s3574983-a2/Prims.s: s3574983-a2/Prims.cpp.s
+
+.PHONY : s3574983-a2/Prims.s
+
+# target to generate assembly for a file
+s3574983-a2/Prims.cpp.s:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.s
+.PHONY : s3574983-a2/Prims.cpp.s
+
+s3574983-a2/RecursiveBacktracking.o: s3574983-a2/RecursiveBacktracking.cpp.o
+
+.PHONY : s3574983-a2/RecursiveBacktracking.o
+
+# target to build an object file
+s3574983-a2/RecursiveBacktracking.cpp.o:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o
+.PHONY : s3574983-a2/RecursiveBacktracking.cpp.o
+
+s3574983-a2/RecursiveBacktracking.i: s3574983-a2/RecursiveBacktracking.cpp.i
+
+.PHONY : s3574983-a2/RecursiveBacktracking.i
+
+# target to preprocess a source file
+s3574983-a2/RecursiveBacktracking.cpp.i:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.i
+.PHONY : s3574983-a2/RecursiveBacktracking.cpp.i
+
+s3574983-a2/RecursiveBacktracking.s: s3574983-a2/RecursiveBacktracking.cpp.s
+
+.PHONY : s3574983-a2/RecursiveBacktracking.s
+
+# target to generate assembly for a file
+s3574983-a2/RecursiveBacktracking.cpp.s:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.s
+.PHONY : s3574983-a2/RecursiveBacktracking.cpp.s
+
 s3574983-a2/main.o: s3574983-a2/main.cpp.o
 
 .PHONY : s3574983-a2/main.o
@@ -249,6 +357,18 @@ help:
 	@echo "... s3574983-a2/Generator.o"
 	@echo "... s3574983-a2/Generator.i"
 	@echo "... s3574983-a2/Generator.s"
+	@echo "... s3574983-a2/GrowingTree.o"
+	@echo "... s3574983-a2/GrowingTree.i"
+	@echo "... s3574983-a2/GrowingTree.s"
+	@echo "... s3574983-a2/HuntAndKill.o"
+	@echo "... s3574983-a2/HuntAndKill.i"
+	@echo "... s3574983-a2/HuntAndKill.s"
+	@echo "... s3574983-a2/Prims.o"
+	@echo "... s3574983-a2/Prims.i"
+	@echo "... s3574983-a2/Prims.s"
+	@echo "... s3574983-a2/RecursiveBacktracking.o"
+	@echo "... s3574983-a2/RecursiveBacktracking.i"
+	@echo "... s3574983-a2/RecursiveBacktracking.s"
 	@echo "... s3574983-a2/main.o"
 	@echo "... s3574983-a2/main.i"
 	@echo "... s3574983-a2/main.s"

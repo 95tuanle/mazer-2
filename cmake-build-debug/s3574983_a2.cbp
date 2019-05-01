@@ -102,6 +102,30 @@
 		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp">
 			<Option target="s3574983_a2"/>
 		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.cpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.hpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.cpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.hpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.cpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.hpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.cpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
+		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp">
+			<Option target="s3574983_a2"/>
+		</Unit>
 		<Unit filename="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/main.cpp">
 			<Option target="s3574983_a2"/>
 		</Unit>

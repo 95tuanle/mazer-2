@@ -17,17 +17,33 @@ using namespace std;
 
 class Generator {
 private:
-    vector<Edge> vectors;
+    int seed;
+    int width;
+    int height;
+    bool withSeed;
+    
 public:
     Generator();
 
-    Generator(const vector<Edge> &vectors);
+    Generator(int seed, int width, int height, bool withSeed);
 
     virtual ~Generator();
 
-    const vector<Edge> &getVectors() const;
+    int getSeed() const;
 
-    void setVectors(const vector<Edge> &vectors);
+    void setSeed(int seed);
+
+    int getWidth() const;
+
+    void setWidth(int width);
+
+    int getHeight() const;
+
+    void setHeight(int height);
+
+    bool isWithSeed() const;
+
+    void setWithSeed(bool withSeed);
 };
 
 #endif /* Generator_hpp */

@@ -11,6 +11,10 @@
 		AFDF4D71227870EC00FCBC0A /* Generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D6F227870EC00FCBC0A /* Generator.cpp */; };
 		AFDF4D742278734800FCBC0A /* Coordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D722278734800FCBC0A /* Coordinator.cpp */; };
 		AFDF4D77227873C700FCBC0A /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D75227873C700FCBC0A /* Edge.cpp */; };
+		AFDF4D7B22787F2600FCBC0A /* HuntAndKill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D7922787F2600FCBC0A /* HuntAndKill.cpp */; };
+		AFDF4D7E2279BB4500FCBC0A /* GrowingTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D7C2279BB4500FCBC0A /* GrowingTree.cpp */; };
+		AFDF4D812279BC4E00FCBC0A /* Prims.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D7F2279BC4E00FCBC0A /* Prims.cpp */; };
+		AFDF4D842279BC6C00FCBC0A /* RecursiveBacktracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4D822279BC6C00FCBC0A /* RecursiveBacktracking.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +39,14 @@
 		AFDF4D75227873C700FCBC0A /* Edge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
 		AFDF4D76227873C700FCBC0A /* Edge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Edge.hpp; sourceTree = "<group>"; };
 		AFDF4D7822787E4800FCBC0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFDF4D7922787F2600FCBC0A /* HuntAndKill.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HuntAndKill.cpp; sourceTree = "<group>"; };
+		AFDF4D7A22787F2600FCBC0A /* HuntAndKill.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HuntAndKill.hpp; sourceTree = "<group>"; };
+		AFDF4D7C2279BB4500FCBC0A /* GrowingTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GrowingTree.cpp; sourceTree = "<group>"; };
+		AFDF4D7D2279BB4500FCBC0A /* GrowingTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GrowingTree.hpp; sourceTree = "<group>"; };
+		AFDF4D7F2279BC4E00FCBC0A /* Prims.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prims.cpp; sourceTree = "<group>"; };
+		AFDF4D802279BC4E00FCBC0A /* Prims.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Prims.hpp; sourceTree = "<group>"; };
+		AFDF4D822279BC6C00FCBC0A /* RecursiveBacktracking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveBacktracking.cpp; sourceTree = "<group>"; };
+		AFDF4D832279BC6C00FCBC0A /* RecursiveBacktracking.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursiveBacktracking.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,14 @@
 				AFDF4D68227870C500FCBC0A /* main.cpp */,
 				AFDF4D6F227870EC00FCBC0A /* Generator.cpp */,
 				AFDF4D70227870EC00FCBC0A /* Generator.hpp */,
+				AFDF4D7922787F2600FCBC0A /* HuntAndKill.cpp */,
+				AFDF4D7A22787F2600FCBC0A /* HuntAndKill.hpp */,
+				AFDF4D7C2279BB4500FCBC0A /* GrowingTree.cpp */,
+				AFDF4D7D2279BB4500FCBC0A /* GrowingTree.hpp */,
+				AFDF4D7F2279BC4E00FCBC0A /* Prims.cpp */,
+				AFDF4D802279BC4E00FCBC0A /* Prims.hpp */,
+				AFDF4D822279BC6C00FCBC0A /* RecursiveBacktracking.cpp */,
+				AFDF4D832279BC6C00FCBC0A /* RecursiveBacktracking.hpp */,
 				AFDF4D722278734800FCBC0A /* Coordinator.cpp */,
 				AFDF4D732278734800FCBC0A /* Coordinator.hpp */,
 				AFDF4D75227873C700FCBC0A /* Edge.cpp */,
@@ -136,8 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFDF4D742278734800FCBC0A /* Coordinator.cpp in Sources */,
+				AFDF4D7E2279BB4500FCBC0A /* GrowingTree.cpp in Sources */,
 				AFDF4D69227870C500FCBC0A /* main.cpp in Sources */,
+				AFDF4D7B22787F2600FCBC0A /* HuntAndKill.cpp in Sources */,
 				AFDF4D77227873C700FCBC0A /* Edge.cpp in Sources */,
+				AFDF4D812279BC4E00FCBC0A /* Prims.cpp in Sources */,
+				AFDF4D842279BC6C00FCBC0A /* RecursiveBacktracking.cpp in Sources */,
 				AFDF4D71227870EC00FCBC0A /* Generator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

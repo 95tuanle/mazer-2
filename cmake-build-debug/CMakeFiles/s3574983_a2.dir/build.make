@@ -96,9 +96,35 @@ CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.cpp" -o CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.s
 
+CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o: CMakeFiles/s3574983_a2.dir/flags.make
+CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o: ../s3574983-a2/GrowingTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o -c "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.cpp"
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.cpp" > CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.i
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.cpp" -o CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.s
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o: CMakeFiles/s3574983_a2.dir/flags.make
+CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o: ../s3574983-a2/HuntAndKill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o -c "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.cpp"
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.cpp" > CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.i
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.cpp" -o CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.s
+
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: CMakeFiles/s3574983_a2.dir/flags.make
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o: ../s3574983-a2/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o -c "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/main.cpp"
 
 CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.i: cmake_force
@@ -109,12 +135,42 @@ CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/main.cpp" -o CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.s
 
+CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o: CMakeFiles/s3574983_a2.dir/flags.make
+CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o: ../s3574983-a2/Prims.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o -c "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.cpp"
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.cpp" > CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.i
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.cpp" -o CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.s
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o: CMakeFiles/s3574983_a2.dir/flags.make
+CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o: ../s3574983-a2/RecursiveBacktracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o -c "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.cpp"
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.cpp" > CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.i
+
+CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.cpp" -o CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.s
+
 # Object files for target s3574983_a2
 s3574983_a2_OBJECTS = \
 "CMakeFiles/s3574983_a2.dir/s3574983-a2/Coordinator.cpp.o" \
 "CMakeFiles/s3574983_a2.dir/s3574983-a2/Edge.cpp.o" \
 "CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.o" \
-"CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o"
+"CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o" \
+"CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o" \
+"CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" \
+"CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o" \
+"CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o"
 
 # External object files for target s3574983_a2
 s3574983_a2_EXTERNAL_OBJECTS =
@@ -122,10 +178,14 @@ s3574983_a2_EXTERNAL_OBJECTS =
 s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/Coordinator.cpp.o
 s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/Edge.cpp.o
 s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.o
+s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o
+s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o
 s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o
+s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o
+s3574983_a2: CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o
 s3574983_a2: CMakeFiles/s3574983_a2.dir/build.make
 s3574983_a2: CMakeFiles/s3574983_a2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable s3574983_a2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable s3574983_a2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/s3574983_a2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

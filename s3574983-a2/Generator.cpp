@@ -8,18 +8,43 @@
 
 #include "Generator.hpp"
 
-Generator::Generator(const vector<Edge> &vectors) : vectors(vectors) {}
-
 Generator::Generator() {}
+
+Generator::Generator(int seed, int width, int height, bool withSeed) : seed(seed), width(width), height(height),
+                                                                       withSeed(withSeed) {}
 
 Generator::~Generator() {
 
 }
 
-const vector<Edge> &Generator::getVectors() const {
-    return vectors;
+int Generator::getSeed() const {
+    return seed;
 }
 
-void Generator::setVectors(const vector<Edge> &vectors) {
-    Generator::vectors = vectors;
+void Generator::setSeed(int seed) {
+    Generator::seed = seed;
+}
+
+int Generator::getWidth() const {
+    return width;
+}
+
+void Generator::setWidth(int width) {
+    Generator::width = width;
+}
+
+int Generator::getHeight() const {
+    return height;
+}
+
+void Generator::setHeight(int height) {
+    Generator::height = height;
+}
+
+bool Generator::isWithSeed() const {
+    return withSeed;
+}
+
+void Generator::setWithSeed(bool withSeed) {
+    Generator::withSeed = withSeed;
 }
