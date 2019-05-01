@@ -7,3 +7,7 @@
 //
 
 #include "GrowingTree.hpp"
+
+vector<Edge> GrowingTree::generate() {
+    return vector<Edge>();
+}

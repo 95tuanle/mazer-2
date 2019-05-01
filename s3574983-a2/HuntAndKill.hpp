@@ -13,7 +13,10 @@
 #include "Generator.hpp"
 
 class HuntAndKill: public Generator {
-
+    
+    
+public:
+    vector<Edge> generate();
 };
 
 #endif /* HuntAndKill_hpp */

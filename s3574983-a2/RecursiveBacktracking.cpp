@@ -7,3 +7,7 @@
 //
 
 #include "RecursiveBacktracking.hpp"
+
+vector<Edge> RecursiveBacktracking::generate() {
+    return vector<Edge>();
+}

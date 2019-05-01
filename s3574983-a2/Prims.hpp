@@ -10,5 +10,13 @@
 #define Prims_hpp
 
 #include <stdio.h>
+#include "Generator.hpp"
+
+class Prims: public Generator {
+    
+    
+public:
+    vector<Edge> generate();
+};
 
 #endif /* Prims_hpp */

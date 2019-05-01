@@ -10,5 +10,13 @@
 #define RecursiveBacktracking_hpp
 
 #include <stdio.h>
+#include "Generator.hpp"
+
+class RecursiveBacktracking: public Generator {
+    
+    
+public:
+    vector<Edge> generate();
+};
 
 #endif /* RecursiveBacktracking_hpp */

@@ -8,3 +8,6 @@
 
 #include "HuntAndKill.hpp"
 
+vector<Edge> HuntAndKill::generate() {
+    return vector<Edge>();
+}

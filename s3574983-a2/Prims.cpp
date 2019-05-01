@@ -7,3 +7,7 @@
 //
 
 #include "Prims.hpp"
+
+vector<Edge> Prims::generate() {
+    return vector<Edge>();
+}
