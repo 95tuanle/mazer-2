@@ -14,7 +14,6 @@
 
 class HuntAndKill: public Generator {
     
-    
 public:
     vector<Edge> generate();
 };
