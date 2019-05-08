@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.hpp
+stdio.h
+-
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.hpp
+stdio.h
+-
+Coordinator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
+stdio.h
+-
+vector
+-
+Edge.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.hpp
+stdio.h
+-
+Generator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.hpp
+stdio.h
+-
+Generator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.hpp
+stdio.h
+-
+Generator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.cpp
+RecursiveBacktracking.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp
+stack
+-
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp
+stdio.h
+-
+Generator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/main.cpp
+iostream
+-
+sstream
+-
+fstream
+-
+Generator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
+Coordinator.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.hpp
+Edge.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.hpp
+HuntAndKill.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.hpp
+GrowingTree.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.hpp
+Prims.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.hpp
+RecursiveBacktracking.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp
+
