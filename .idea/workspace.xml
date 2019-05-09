@@ -12,50 +12,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c214592-da9c-40c5-8199-330848a1bb14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Prim.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/0B/Prim.hpp-3RJJ4IYIBBU0B" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/7D/main.cpp-NWK205DOWD7D" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9S/Prim.cpp-2PE5KH50J709S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/C8/Prim.hpp-3TCNSE8XU67C8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NU/main.cpp-3VKZWVPPGXNNU" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/WY/main.cpp-12C43F8AY3OWY" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Prim.o-38J22CEVY0BBN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1G/main.cpp-DCAF2TS7VR1G" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2B/GrowingTree.cpp-1YM89ACAEBN2B" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2H/main.cpp-16ZV8SNMFO22H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2O/GrowingTree.cpp-1FS2G5M94U62O" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2R/GrowingTree.cpp-3P0ZU488J152R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/2S/GrowingTree.cpp-1N5PPOW75QW2S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/34/main.cpp-1DHMH7YD72I34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4A/GrowingTree.cpp-HCFJIRG1CO4A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4F/GrowingTree.cpp-XJJQJ1I8DJ4F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4N/GrowingTree.cpp-3P27Y7V21I74N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/52/main.cpp-3S80NJCW16S52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5S/GrowingTree.cpp-1547BRFG2YA5S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/5U/RecursiveBacktracking.cpp-34R33ITXLDS5U" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/6I/GrowingTree.cpp-3JO8KQ0R0WI6I" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/6M/Prim.cpp-2KMB409ZXRU6M" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/6Q/GrowingTree.cpp-2P7FTG1BYQ36Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/6Y/GrowingTree.cpp-3CNOR8WYICX6Y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/7D/GrowingTree.cpp-1WQ2UFSDRQ87D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/87/GrowingTree.cpp-3U6I2G358L787" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/99/GrowingTree.cpp-34ELCLCS8NM99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9N/GrowingTree.cpp-3NAKYQMMFYC9N" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/9O/GrowingTree.cpp-1QL087P5TOF9O" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/A8/GrowingTree.cpp-179TNENQLEHA8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/AZ/GrowingTree.cpp-1G27I70MWM0AZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/B6/GrowingTree.cpp-1NFQDIO9F7IB6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/BF/GrowingTree.cpp-1CZQ5B7R08NBF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/C2/GrowingTree.cpp-31KDIITUD3QC2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/E1/GrowingTree.cpp-2NBEIK7JG5FE1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/E9/Prim.hpp-YN6XS57SATE9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/EX/GrowingTree.cpp-11LW7MMCVW0EX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FD/Generator.hpp-KSR1KNH0DRFD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FT/GrowingTree.cpp-7QU9XTBG2VFT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/G1/GrowingTree.cpp-1G9BDNFID9WG1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/G5/GrowingTree.cpp-AQ04WSVP9NG5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/GD/Prim.cpp-NGGTGV024CGD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/GE/GrowingTree.cpp-2MI7XV9WFFGE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/HN/GrowingTree.cpp-2FOOFMAU9CBHN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/IF/GrowingTree.cpp-XVQV17UK8DIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/KC/GrowingTree.cpp-UYG7ROUVP5KC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/KL/GrowingTree.cpp-GKJVYSKWEGKL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/KQ/GrowingTree.cpp-141E6JUPIL6KQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/KR/GrowingTree.cpp-1GEMGAD3NCSKR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LX/GrowingTree.cpp-2W4SHTR24DELX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MC/GrowingTree.cpp-13QNRM5AA9HMC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/ME/GrowingTree.cpp-MLUYKSNALLME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/MF/GrowingTree.cpp-1SUUS7PG77ZMF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/O7/GrowingTree.cpp-3TCE6N5Z35FO7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/OB/GrowingTree.cpp-1LOSZJ86IPIOB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/PD/GrowingTree.cpp-P4W792QGLWPD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Q0/GrowingTree.cpp-37718X1BD7JQ0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Q4/GrowingTree.cpp-XT4M9JEHWFQ4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Q5/GrowingTree.cpp-38C53ZDIR75Q5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QD/GrowingTree.cpp-PXL5VY6YLRQD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QG/GrowingTree.cpp-2Z2FHM8R1WIQG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/QH/GrowingTree.cpp-2JQU34X0RQPQH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/R1/GrowingTree.cpp-24YF0R9M2BCR1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/R3/GrowingTree.cpp-ZNO3LPA38HR3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/R5/GrowingTree.cpp-9734ONU9VGR5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/S7/GrowingTree.cpp-2KHDLBNHK9KS7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/SI/GrowingTree.cpp-3GPNYDH879VSI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/SQ/GrowingTree.hpp-U75QG6MKT5SQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/SS/GrowingTree.cpp-3CGI7J7PQYASS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/TH/GrowingTree.cpp-Y25Q7PTMSHTH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/V5/GrowingTree.cpp-23ADMN8OT58V5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/XH/GrowingTree.cpp-2NBUJMN3SZCXH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/ZQ/GrowingTree.cpp-1CC89CNYCABZQ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/0e1a334511731bd524404a829fbd1bb2-desc.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/be7da28a739f89e2e9ab8ec972c7e0fd-desc.xcbuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/0e1a334511731bd524404a829fbd1bb2-manifest.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/be7da28a739f89e2e9ab8ec972c7e0fd-manifest.xcbuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-8d4fc2dfe9da7586103d5b9f4226fdfa" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-8d4fc2dfe9da7586103d5b9f4226fdfa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/b795d922837f8b0506650aebf07725b9-desc.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/b795d922837f8b0506650aebf07725b9-desc.xcbuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/be7da28a739f89e2e9ab8ec972c7e0fd-desc.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/be7da28a739f89e2e9ab8ec972c7e0fd-desc.xcbuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/d123fc4989fdde6a9fb7a22043dad193-desc.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/b795d922837f8b0506650aebf07725b9-desc.xcbuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/d123fc4989fdde6a9fb7a22043dad193-manifest.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/b795d922837f8b0506650aebf07725b9-manifest.xcbuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.d" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.dia" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.dia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.d" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2.LinkFileList" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2.LinkFileList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2_dependency_info.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2_dependency_info.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-project-headers.hmap" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-project-headers.hmap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/Prim.o-38J22CEVY0BBN" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Prim.o-38J22CEVY0BBN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/growingtree100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hundandkill100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prims100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursivebacktracking100.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Prims.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Prim.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Prims.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Prim.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983-a2/Prim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Prim.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983_a2" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983_a2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983_a2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983_a2.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -71,26 +117,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -98,6 +125,7 @@
       <find>neighbours</find>
       <find>prims</find>
       <find>Prims</find>
+      <find>erase</find>
     </findStrings>
     <replaceStrings>
       <replace>prim</replace>
@@ -115,7 +143,6 @@
         <option value="$PROJECT_DIR$/s3574983-a2/Coordinator.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/Edge.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/Edge.hpp" />
-        <option value="$PROJECT_DIR$/s3574983-a2/Generator.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/GrowingTree.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/HuntAndKill.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/HuntAndKill.hpp" />
@@ -123,10 +150,12 @@
         <option value="$PROJECT_DIR$/s3574983-a2/Prims.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.hpp" />
-        <option value="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/main.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/s3574983-a2/Prim.hpp" />
+        <option value="$PROJECT_DIR$/s3574983-a2/Generator.hpp" />
+        <option value="$PROJECT_DIR$/s3574983-a2/Prim.cpp" />
+        <option value="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" />
       </list>
     </option>
   </component>
@@ -148,6 +177,24 @@
             <path>
               <item name="s3574983_a2" type="b2602c69:ProjectViewProjectNode" />
               <item name="s3574983-a2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="s3574983_a2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="s3574983-a2" type="462c0819:PsiDirectoryNode" />
+              <item name="Build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="s3574983_a2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="s3574983-a2" type="462c0819:PsiDirectoryNode" />
+              <item name="Build" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="s3574983_a2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="s3574983-a2" type="462c0819:PsiDirectoryNode" />
+              <item name="Build" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
+              <item name="Debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="s3574983_a2" type="b2602c69:ProjectViewProjectNode" />
@@ -207,17 +254,17 @@
       <workItem from="1557339441662" duration="90000" />
       <workItem from="1557340206059" duration="177000" />
       <workItem from="1557412763967" duration="1261000" />
-      <workItem from="1557415706586" duration="2198000" />
+      <workItem from="1557415706586" duration="6417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17465000" />
+    <option name="totallyTimeSpent" value="21684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23931624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23931624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/Generator.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s3574983-a2/Coordinator.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -374,27 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="842">
           <caret line="245" column="1" selection-start-line="245" selection-start-column="1" selection-end-line="245" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -426,12 +445,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/growingtree1000.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/tuanle1000.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="525">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/Generator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/MYLIFE.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/tuanle.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/hixhix.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

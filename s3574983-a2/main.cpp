@@ -257,7 +257,7 @@ void getUserInput() {
                     // printLineWith(userInputVector[hasGen.first+1]);
                     // printLineWith(userInputVector[hasGen.first+2]);
                     // printLineWith(userInputVector[hasGen.first+3]);
-                    if (seed > 0 && width > 0 && height > 0) {
+                    if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling hunt and kill func");
                         mainWidth = width;
@@ -298,7 +298,7 @@ void getUserInput() {
                     try {
                         thirdField = stoi(userInputVector[hasHuntAndKillOpt.first+3]);
                         // printLineWithInt(thirdField);
-                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                        if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling hunt and kill with optional seed func");
                             mainWidth = secondField;
@@ -356,7 +356,7 @@ void getUserInput() {
                     seed = stoi(userInputVector[hasGrowingTree.first+1]);
                     width = stoi(userInputVector[hasGrowingTree.first+2]);
                     height = stoi(userInputVector[hasGrowingTree.first+3]);
-                    if (seed > 0 && width > 0 && height > 0) {
+                    if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling growing tree func");
                         mainWidth = width;
@@ -391,7 +391,7 @@ void getUserInput() {
                     int thirdField = 0;
                     try {
                         thirdField = stoi(userInputVector[hasGrowingTreeOpt.first+3]);
-                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                        if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling growing tree with optional seed func");
                             mainWidth = secondField;
@@ -450,7 +450,7 @@ void getUserInput() {
                     seed = stoi(userInputVector[hasPrim.first+1]);
                     width = stoi(userInputVector[hasPrim.first+2]);
                     height = stoi(userInputVector[hasPrim.first+3]);
-                    if (seed > 0 && width > 0 && height > 0) {
+                    if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling prim's func");
                         mainWidth = width;
@@ -485,7 +485,7 @@ void getUserInput() {
                     int thirdField = 0;
                     try {
                         thirdField = stoi(userInputVector[hasPrimOpt.first+3]);
-                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                        if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling prim's with optional seed func");
                             mainWidth = secondField;
@@ -543,7 +543,7 @@ void getUserInput() {
                     seed = stoi(userInputVector[hasRecursiveBacktracking.first+1]);
                     width = stoi(userInputVector[hasRecursiveBacktracking.first+2]);
                     height = stoi(userInputVector[hasRecursiveBacktracking.first+3]);
-                    if (seed > 0 && width > 0 && height > 0) {
+                    if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling recursive backtracking func");
                         mainWidth = width;
@@ -578,7 +578,7 @@ void getUserInput() {
                     int thirdField = 0;
                     try {
                         thirdField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+3]);
-                        if (firstField > 0 && secondField > 0 && thirdField > 0) {
+                        if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling recursive backtracking with optional seed func");
                             mainWidth = secondField;
@@ -658,7 +658,7 @@ void getUserInput() {
                     saveSvg(userInputVector[hasSaveSvg.first + 1], edgesVector, mainWidth, mainHeight);
                     auto stop = high_resolution_clock::now();
                     auto duration = duration_cast<milliseconds>(stop - start);
-                    printLineWith("Saving binary file time is " + to_string(duration.count()) + " milliseconds");
+                    printLineWith("Saving SVG file time is " + to_string(duration.count()) + " milliseconds");
                 }
             } else {
                 if (hasSaveBinary.second || hasSaveSvg.second) {

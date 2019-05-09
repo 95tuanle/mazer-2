@@ -22,9 +22,8 @@ vector<Edge> Prim::generate() {
     }
     //    create vector to store edges
     vector<Edge> edges;
-    
-    bool keepFrontiering = true;
-    
+    vector<Coordinator> frontiers;
+        
     //    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
@@ -32,85 +31,103 @@ vector<Edge> Prim::generate() {
     //    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
     
-    while (keepFrontiering) {
-        vector<Coordinator> frontiers;
-        for (int j = 0; j < height; ++j) {
-            for (int i = 0; i < width; ++i) {
-                if (!visitedArray[j][i]) {
-                    if ((j - 1 > -1 && visitedArray[j - 1][i]) || (i + 1 < width &&visitedArray[j][i + 1]) ||
-                            (j + 1 < height && visitedArray[j + 1][i]) || (i - 1 > -1 && visitedArray[j][i - 1])) {
-                        Coordinator coordinator;
-                        coordinator.setX(j);
-                        coordinator.setY(i);
-                        frontiers.push_back(coordinator);
-                    }
-                }
-            }
+    if (startingCell.getX() - 1 > -1) {
+        if (!visitedArray[startingCell.getX() - 1][startingCell.getY()]) {
+            Coordinator topCell;
+            topCell.setX(startingCell.getX() - 1);
+            topCell.setY(startingCell.getY());
+            frontiers.push_back(topCell);
         }
+    }
+    
+    if (startingCell.getY() + 1 < width) {
+        if (!visitedArray[startingCell.getX()][startingCell.getY() + 1]) {
+            Coordinator rightCell;
+            rightCell.setX(startingCell.getX());
+            rightCell.setY(startingCell.getY() + 1);
+            frontiers.push_back(rightCell);
+        }
+    }
+    
+    if (startingCell.getX() + 1 < height) {
+        if (!visitedArray[startingCell.getX() + 1][startingCell.getY()]) {
+            Coordinator bottomCell;
+            bottomCell.setX(startingCell.getX() + 1);
+            bottomCell.setY(startingCell.getY());
+            frontiers.push_back(bottomCell);
+        }
+    }
+    
+    if (startingCell.getY() - 1 > -1) {
+        if (!visitedArray[startingCell.getX()][startingCell.getY() - 1]) {
+            Coordinator leftCell;
+            leftCell.setX(startingCell.getX());
+            leftCell.setY(startingCell.getY() - 1);
+            frontiers.push_back(leftCell);
+        }
+    }
+    
+    while (!frontiers.empty()) {
         int currentRandom = rand() % frontiers.size();
         startingCell = frontiers[currentRandom];
-        visitedArray[startingCell.getX()][startingCell.getY()] = true;
         Edge edge;
         edge.setCoordinator1(startingCell);
-
-        //                create a vector to store neighbour cell
-        vector<Coordinator> neighbours;
-
-        //                looking for neighbours
+        visitedArray[startingCell.getX()][startingCell.getY()] = true;
+        frontiers.erase(std::remove_if(frontiers.begin(), frontiers.end(),
+                                                 [&startingCell](const Coordinator& coordinator) {
+                                                     return coordinator.getX() == startingCell.getX() &&
+                                                     coordinator.getY() == startingCell.getY();
+                                                 }), frontiers.end());
+        vector<Coordinator> visitedNeighbours;
+        
         if (startingCell.getX() - 1 > -1) {
+            Coordinator topCell;
+            topCell.setX(startingCell.getX() - 1);
+            topCell.setY(startingCell.getY());
             if (visitedArray[startingCell.getX() - 1][startingCell.getY()]) {
-                Coordinator topCell;
-                topCell.setX(startingCell.getX() - 1);
-                topCell.setY(startingCell.getY());
-                neighbours.push_back(topCell);
+                visitedNeighbours.push_back(topCell);
+            } else {
+                frontiers.push_back(topCell);
             }
         }
-
+        
         if (startingCell.getY() + 1 < width) {
+            Coordinator rightCell;
+            rightCell.setX(startingCell.getX());
+            rightCell.setY(startingCell.getY() + 1);
             if (visitedArray[startingCell.getX()][startingCell.getY() + 1]) {
-                Coordinator rightCell;
-                rightCell.setX(startingCell.getX());
-                rightCell.setY(startingCell.getY() + 1);
-                neighbours.push_back(rightCell);
+                visitedNeighbours.push_back(rightCell);
+            } else {
+                frontiers.push_back(rightCell);
             }
         }
-
+        
         if (startingCell.getX() + 1 < height) {
+            Coordinator bottomCell;
+            bottomCell.setX(startingCell.getX() + 1);
+            bottomCell.setY(startingCell.getY());
             if (visitedArray[startingCell.getX() + 1][startingCell.getY()]) {
-                Coordinator bottomCell;
-                bottomCell.setX(startingCell.getX() + 1);
-                bottomCell.setY(startingCell.getY());
-                neighbours.push_back(bottomCell);
+                visitedNeighbours.push_back(bottomCell);
+            } else {
+                frontiers.push_back(bottomCell);
             }
         }
-
+        
         if (startingCell.getY() - 1 > -1) {
+            Coordinator leftCell;
+            leftCell.setX(startingCell.getX());
+            leftCell.setY(startingCell.getY() - 1);
             if (visitedArray[startingCell.getX()][startingCell.getY() - 1]) {
-                Coordinator leftCell;
-                leftCell.setX(startingCell.getX());
-                leftCell.setY(startingCell.getY() - 1);
-                neighbours.push_back(leftCell);
+                visitedNeighbours.push_back(leftCell);
+            } else {
+                frontiers.push_back(leftCell);
             }
         }
-
-        currentRandom = rand() % neighbours.size();
-        startingCell = neighbours[currentRandom];
+        
+        currentRandom = rand() % visitedNeighbours.size();
+        startingCell = visitedNeighbours[currentRandom];
         edge.setCoordinator2(startingCell);
         edges.push_back(edge);
-
-        for (int l = 0; l < height; ++l) {
-            for (int i = 0; i < width; ++i) {
-                if (!visitedArray[l][i]) {
-                    keepFrontiering = true;
-                    break;
-                } else {
-                    keepFrontiering = false;
-                }
-            }
-            if (keepFrontiering) {
-                break;
-            }
-        }
     }
     return edges;
 }
