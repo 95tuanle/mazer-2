@@ -9,50 +9,56 @@ Lecturer: _Andrew Smith_
 Student: _Le Nguyen Anh Tuan (s3574983)_
 
 
-How to use (type these commands):
+**How to use (type these commands):**
 
-1.Move to folder directory
+1.  Changer current directory to project folder directory
 
-`cd folder-of-the-project`
+    `cd folder-of-the-project`
 
-2.Compile mazer.cpp to executable file maze
+2.  Compile project
 
-`g++ -std=c++14 -o mazer mazer.cpp`
+    `cmake .`
 
-3.Run mazer file
+3.  Build project
 
-`./mazer`
+    `make`
 
+4.  Run project (execution file)
+
+    `./s3574983_a2`
 
 **Accomplished functions:**
 
-1.Generating maze with seed
+1.  Generating maze with three algorithms (Hunt and Kill, Growing Tree, Prim's, Recursive Backtracking) with seed
 
-`--g seed width height` + save svg or/and save binary
+    `--gh` or `--gg` or `--gp` or `--gr` + `seed width height` + save svg or/and save binary (`--sv` or `--sb`)
 
-2.Generating maze with/without seed
+2.  Generating maze with three algorithms (Hunt and Kill, Growing Tree, Prim's, Recursive Backtracking) with/without seed
 
-`-g seed width height` + save svg or/and save binary
+    `-gh` or `-gg` or `-gp` or `-gr` + `seed width height` or `width heigh` + save svg or/and save binary (`--sv` or `--sb`)
 
-or
+3.  Save binary
 
-`-g width height` + save svg or/and save binary
+    Generating maze with/without seed (`--gh` or `--gg` or `--gp` or `--gr`) + `--sb filename.maze`
 
-3.Save binary
+4.  Save svg
 
-Generating maze with/without seed (`-g` or `--g`) + `--sb filename.maze`
+    Generating maze with/without seed (`-gh` or `-gg` or `-gp` or `-gr`) + `--sv filename.svg`
 
-4.Save svg
+5.  Additional function
 
-Generating maze with/without seed (`-g` or `--g`) + `--sv filename.svg`
+- Validate user input (partially)
 
-5.Additional function
+    - **_WARNING:_** **There might be `Segmentation fault: 11` due to a problem when processing user's input, please re-run execution file and try again**
 
+- Timing when generating and saving
 
-Validate user input (partially)
 
 ~~Unaccomplished functions:~~
 
-~~1.Load binary~~
+~~1. Load binary~~
 
-~~2.Load svg~~
+~~2. Load svg~~
+
+~~3. Maze-routing algorithm~~
+

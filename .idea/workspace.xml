@@ -12,121 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c214592-da9c-40c5-8199-330848a1bb14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/1R/Generator.cpp-2SBD6K703O31R" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/3G/RecursiveBacktracking.cpp-29XLRVW4ANK3G" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/4E/RecursiveBacktracking.cpp-10MIE1NER0B4E" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/69/main.cpp-3FHPEVUD1PG69" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/76/HuntAndKill.cpp-V8CWNQXNA376" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/89/GrowingTree.cpp-NQUMBZ67OH89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/8V/main.cpp-14YU69T07WB8V" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/90/HuntAndKill.cpp-3UKD04BP8U290" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/BT/main.cpp-2R1EOWOGGXOBT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/EF/main.cpp-14NZ25IJ7ZTEF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/FB/main.cpp-2USUQES3CQZFB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/GX/main.cpp-4S59P2799LGX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/H9/GrowingTree.cpp-I7XDVBQNVVH9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/I7/Prims.cpp-2M0YZ96JUVWI7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/L3/RecursiveBacktracking.cpp-2KJZVN0JQAML3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LQ/main.cpp-1SJ0VDFHKT9LQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/LW/HuntAndKill.cpp-MGORGSRRLNLW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/NU/Prims.cpp-1AHQT1V9UAGNU" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/RW/Prims.cpp-1UW0KW2EYEQRW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/WS/Generator.hpp-3L8H1DE8IDEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Y3/HuntAndKill.cpp-F6YCCK5X2JY3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/YH/GrowingTree.cpp-2JEQUHISL2YYH" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/DataStore/v5/records/Z9/Prims.cpp-13AJZWYK7IPZ9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/0e1a334511731bd524404a829fbd1bb2-desc.xcbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/0e1a334511731bd524404a829fbd1bb2-manifest.xcbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/38802de9fdff8e8f80cf4c7b0a60853a-desc.xcbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/38802de9fdff8e8f80cf4c7b0a60853a-manifest.xcbuild" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-8d4fc2dfe9da7586103d5b9f4226fdfa" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-8d4fc2dfe9da7586103d5b9f4226fdfa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/project/PROJECT@v8_mod=1556727544_hash=9a27d44642e4011e8b76f853a4d10d63-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/project/PROJECT@v8_mod=1557073498_hash=9a27d44642e4011e8b76f853a4d10d63-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/project/PROJECT@v8_mod=1557333036_hash=9a27d44642e4011e8b76f853a4d10d63-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/target/TARGET@v8_hash=00F22A1D4DD922EEC3908E541F9D6F3A-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/workspace/WORKSPACE@v8_mod=1556625733_hash=8d4fc2dfe9da7586103d5b9f4226fdfa_subobjects=64700492CECD31A7601F5C74338A2797-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/workspace/WORKSPACE@v8_mod=1556625733_hash=8d4fc2dfe9da7586103d5b9f4226fdfa_subobjects=7A97FAFF277E346788C2632E5091F51E-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/PIFCache/workspace/WORKSPACE@v8_mod=1556625733_hash=8d4fc2dfe9da7586103d5b9f4226fdfa_subobjects=BB99B33C8344505459DB22B9F9D94BAD-json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/b26b0dabb1e5564082daf5f42a5d8c10-desc.xcbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/b26b0dabb1e5564082daf5f42a5d8c10-manifest.xcbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/d123fc4989fdde6a9fb7a22043dad193-desc.xcbuild" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/d123fc4989fdde6a9fb7a22043dad193-desc.xcbuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/DerivedSources/Entitlements.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Coordinator.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Coordinator.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Coordinator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Edge.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Edge.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Edge.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Generator.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Generator.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Generator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/HuntAndKill.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/HuntAndKill.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/HuntAndKill.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prims.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.dia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2.LinkFileList" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/s3574983-a2_dependency_info.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/all-product-headers.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-all-non-framework-target-headers.hmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-all-target-headers.hmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-generated-files.hmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-own-target-headers.hmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2-project-headers.hmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2.hmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/s3574983-a2.xcent" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Products/Debug/tuanle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Coordinator.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Edge.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/Generator.o-2J1J27PWW83LW" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Generator.o-2J1J27PWW83LW" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/HuntAndKill.o-MLQRZ2O4AJMQ" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/HuntAndKill.o-MLQRZ2O4AJMQ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/Prims.o-1807JYSK3BO7V" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Prims.o-1807JYSK3BO7V" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/RecursiveBacktracking.o-296AHFN36E312" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/RecursiveBacktracking.o-296AHFN36E312" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tuanle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Coordinator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Coordinator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Coordinator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Coordinator.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Edge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Edge.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Edge.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Edge.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Generator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Generator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Generator.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/GrowingTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/GrowingTree.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/HuntAndKill.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/HuntAndKill.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/HuntAndKill.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/HuntAndKill.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Prims.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Prims.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/Prims.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Prims.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3574983_a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuanle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983_a2" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983_a2" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -142,7 +39,33 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s3574983-a2/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="724" column="34" selection-start-line="724" selection-start-column="34" selection-end-line="724" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#2#0" />
+                <element signature="e#122#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="555">
+                <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -165,12 +88,13 @@
         <option value="$PROJECT_DIR$/s3574983-a2/GrowingTree.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/HuntAndKill.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/HuntAndKill.hpp" />
-        <option value="$PROJECT_DIR$/s3574983-a2/main.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/Prims.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/Prims.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" />
+        <option value="$PROJECT_DIR$/s3574983-a2/main.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -185,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +126,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,17 +174,19 @@
       <workItem from="1557338159676" duration="972000" />
       <workItem from="1557339441662" duration="90000" />
       <workItem from="1557340206059" duration="177000" />
-      <workItem from="1557412763967" duration="598000" />
+      <workItem from="1557412763967" duration="1261000" />
+      <workItem from="1557415706586" duration="1570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14604000" />
+    <option name="totallyTimeSpent" value="16837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23931624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,12 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tuanle222.svg" />
     <entry file="file://$PROJECT_DIR$/tuanle111.svg" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/tuanle.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuanle.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/tuanle.svg" />
+    <entry file="file://$PROJECT_DIR$/tuanle.svg" />
     <entry file="file://$PROJECT_DIR$/s3574983-a2/Coordinator.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -390,22 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="681" column="1" selection-start-line="681" selection-start-column="1" selection-end-line="681" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#2#0" />
-            <element signature="e#806#1874#0" />
-            <element signature="e#1876#28345#0" />
-            <element signature="e#28347#28433#0" />
-            <element signature="e#28435#29689#0" />
-            <element signature="e#29691#30860#0" />
-            <element signature="e#30862#31128#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s3574983-a2/Prims.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -472,6 +371,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="724" column="34" selection-start-line="724" selection-start-column="34" selection-end-line="724" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#122#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="555">
+            <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

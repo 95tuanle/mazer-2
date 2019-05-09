@@ -9,6 +9,7 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
+#include <chrono>
 #include "Generator.hpp"
 #include "Coordinator.hpp"
 #include "Edge.hpp"
@@ -17,7 +18,7 @@
 #include "Prims.hpp"
 #include "RecursiveBacktracking.hpp"
 
-//using namespace std;
+using namespace chrono;
 
 void getUserInput();
 
@@ -258,7 +259,7 @@ void getUserInput() {
                     // printLineWith(userInputVector[hasGen.first+3]);
                     if (seed > 0 && width > 0 && height > 0) {
                         canCallSaveFunctions = true;
-                        printLineWith("calling hunt and kill func");
+//                        printLineWith("calling hunt and kill func");
                         mainWidth = width;
                         mainHeight = height;
                         HuntAndKill huntAndKill;
@@ -266,7 +267,11 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
+                        auto start = high_resolution_clock::now();
                         edgesVector = huntAndKill.generate();
+                        auto stop = high_resolution_clock::now();
+                        auto duration = duration_cast<milliseconds>(stop - start);
+                        printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
@@ -295,7 +300,7 @@ void getUserInput() {
                         // printLineWithInt(thirdField);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling hunt and kill with optional seed func");
+//                            printLineWith("calling hunt and kill with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
                             HuntAndKill huntAndKill;
@@ -303,7 +308,11 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = huntAndKill.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -312,7 +321,7 @@ void getUserInput() {
                     } catch (...) {
                         if (firstField > 0 && secondField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling hunt and kill without optional seed func");
+//                            printLineWith("calling hunt and kill without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
                             HuntAndKill huntAndKill;
@@ -322,7 +331,11 @@ void getUserInput() {
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = huntAndKill.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -345,7 +358,7 @@ void getUserInput() {
                     height = stoi(userInputVector[hasGrowingTree.first+3]);
                     if (seed > 0 && width > 0 && height > 0) {
                         canCallSaveFunctions = true;
-                        printLineWith("calling growing tree func");
+//                        printLineWith("calling growing tree func");
                         mainWidth = width;
                         mainHeight = height;
                         GrowingTree growingTree;
@@ -353,7 +366,11 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
+                        auto start = high_resolution_clock::now();
                         edgesVector = growingTree.generate();
+                        auto stop = high_resolution_clock::now();
+                        auto duration = duration_cast<milliseconds>(stop - start);
+                        printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
@@ -376,7 +393,7 @@ void getUserInput() {
                         thirdField = stoi(userInputVector[hasGrowingTreeOpt.first+3]);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling growing tree with optional seed func");
+//                            printLineWith("calling growing tree with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
                             GrowingTree growingTree;
@@ -384,7 +401,11 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = growingTree.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -393,7 +414,7 @@ void getUserInput() {
                     } catch (...) {
                         if (firstField > 0 && secondField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling growing tree without optional seed func");
+//                            printLineWith("calling growing tree without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
                             GrowingTree growingTree;
@@ -403,7 +424,11 @@ void getUserInput() {
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = growingTree.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -427,7 +452,7 @@ void getUserInput() {
                     height = stoi(userInputVector[hasPrims.first+3]);
                     if (seed > 0 && width > 0 && height > 0) {
                         canCallSaveFunctions = true;
-                        printLineWith("calling prim's func");
+//                        printLineWith("calling prim's func");
                         mainWidth = width;
                         mainHeight = height;
                         Prims prims;
@@ -435,7 +460,11 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
+                        auto start = high_resolution_clock::now();
                         edgesVector = prims.generate();
+                        auto stop = high_resolution_clock::now();
+                        auto duration = duration_cast<milliseconds>(stop - start);
+                        printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
@@ -458,7 +487,7 @@ void getUserInput() {
                         thirdField = stoi(userInputVector[hasPrimsOpt.first+3]);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling prim's with optional seed func");
+//                            printLineWith("calling prim's with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
                             Prims prims;
@@ -466,7 +495,11 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = prims.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -475,7 +508,7 @@ void getUserInput() {
                     } catch (...) {
                         if (firstField > 0 && secondField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling prim's without optional seed func");
+//                            printLineWith("calling prim's without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
                             Prims prims;
@@ -485,7 +518,11 @@ void getUserInput() {
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = prims.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -508,7 +545,7 @@ void getUserInput() {
                     height = stoi(userInputVector[hasRecursiveBacktracking.first+3]);
                     if (seed > 0 && width > 0 && height > 0) {
                         canCallSaveFunctions = true;
-                        printLineWith("calling recursive backtracking func");
+//                        printLineWith("calling recursive backtracking func");
                         mainWidth = width;
                         mainHeight = height;
                         RecursiveBacktracking recursiveBacktracking;
@@ -516,7 +553,11 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
+                        auto start = high_resolution_clock::now();
                         edgesVector = recursiveBacktracking.generate();
+                        auto stop = high_resolution_clock::now();
+                        auto duration = duration_cast<milliseconds>(stop - start);
+                        printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
@@ -539,7 +580,7 @@ void getUserInput() {
                         thirdField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+3]);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling recursive backtracking with optional seed func");
+//                            printLineWith("calling recursive backtracking with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
                             RecursiveBacktracking recursiveBacktracking;
@@ -547,7 +588,11 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = recursiveBacktracking.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -556,7 +601,7 @@ void getUserInput() {
                     } catch (...) {
                         if (firstField > 0 && secondField > 0) {
                             canCallSaveFunctions = true;
-                            printLineWith("calling recursive backtracking without optional seed func");
+//                            printLineWith("calling recursive backtracking without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
                             RecursiveBacktracking recursiveBacktracking;
@@ -566,7 +611,11 @@ void getUserInput() {
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
+                            auto start = high_resolution_clock::now();
                             edgesVector = recursiveBacktracking.generate();
+                            auto stop = high_resolution_clock::now();
+                            auto duration = duration_cast<milliseconds>(stop - start);
+                            printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
 //                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
@@ -595,13 +644,21 @@ void getUserInput() {
             hasRecursiveBacktrackingOpt.second || hasLoadBinary.second || hasLoadSvg.second) && canCallSaveFunctions) {
                 if (hasSaveBinary.second) {
                     // TODO check file format and validate user input
+//                    printLineWith("calling save binary func");
+                    auto start = high_resolution_clock::now();
                     saveBinary(userInputVector[hasSaveBinary.first + 1], edgesVector, mainWidth, mainHeight);
-                    printLineWith("calling save binary func");
+                    auto stop = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(stop - start);
+                    printLineWith("Saving binary file time is " + to_string(duration.count()) + " milliseconds");
                 }
                 if (hasSaveSvg.second) {
                     // TODO check file format and validate user input
+//                    printLineWith("calling save SVG func");
+                    auto start = high_resolution_clock::now();
                     saveSvg(userInputVector[hasSaveSvg.first + 1], edgesVector, mainWidth, mainHeight);
-                    printLineWith("calling save SVG func");
+                    auto stop = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(stop - start);
+                    printLineWith("Saving binary file time is " + to_string(duration.count()) + " milliseconds");
                 }
             } else {
                 if (hasSaveBinary.second || hasSaveSvg.second) {
@@ -609,9 +666,7 @@ void getUserInput() {
                 }
             }
         } else {
-            // if (userInputVector[0] != EXIT) {
             printLineWith(INVALID_INPUT_MESSAGE);
-            // }
         }
     }
     // while (userInputVector[0] != EXIT && userInput != EXIT);
@@ -633,10 +688,6 @@ void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName
         binary.write((char *) &numberOfEdges, sizeof(width));
         
         for (auto & edge : vector) {
-//            int x1 =  edge.first.first;
-//            int y1 =  edge.first.second;
-//            int x2 =  edge.second.first;
-//            int y2 =  edge.second.second;
             int x1 =  edge.getCoordinator1().getX();
             int y1 =  edge.getCoordinator1().getY();
             int x2 =  edge.getCoordinator2().getX();
@@ -660,10 +711,6 @@ void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, c
     svg << "<rect width =" << "\'" << width << "\' " << "height=\'" << height << "\' " << "style=\'"
     << "fill: black\' " << "/>" << endl;
     for (auto & edge : vector) {
-//        int x1 =  edge.first.first;
-//        int y1 =  edge.first.second;
-//        int x2 =  edge.second.first;
-//        int y2 =  edge.second.second;
         int x1 =  edge.getCoordinator1().getX();
         int y1 =  edge.getCoordinator1().getY();
         int x2 =  edge.getCoordinator2().getX();
