@@ -9,10 +9,10 @@
 #include "HuntAndKill.hpp"
 
 vector<Edge> HuntAndKill::generate() {
-    long seed = getSeed();
+    int seed = getSeed();
+    srand(seed);
     int height = getHeight();
     int width = getWidth();
-    bool withSeed = isWithSeed();
     //    create an array to monitor visited cells
     bool visitedArray[height][width];
     for (int m = 0; m < height; ++m) {
@@ -21,23 +21,8 @@ vector<Edge> HuntAndKill::generate() {
         }
     }
     
-    //    for (int n = 0; n < height; ++n) {
-    //        for (int i = 0; i < width; ++i) {
-    //            cout << n << i << " ";
-    //        }
-    //        cout << endl;
-    //    }
-    
-    
     //    create vector to store edges
     vector<Edge> edges;
-    //    check user input seed
-    if (!withSeed) {
-        seed = time(0);
-//TODO fix to print out the seed
-//        cout << "Your seed is " << seed << endl;
-    }
-    srand((int) seed);
     
     bool keepHunting = true;
     bool keepKilling = true;
@@ -48,22 +33,9 @@ vector<Edge> HuntAndKill::generate() {
     startingCell.setY(rand() % width);
     //    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
-    //    bool starting = true;
-    
     
     //    loop as hunting continuously
     while (keepHunting) {
-        //        for(int i=0;i < height;i++) {
-        //            for(int j=0;j < width;j++) {
-        //                if (!visitedArray[i][j]) {
-        //                    keepKilling = true;
-        //                    break;
-        //                } else {
-        //                    keepKilling = false;
-        //                }
-        //            }
-        //        }
-        //        check if whe need to killing
         for (int j = 0; j < height; ++j) {
             for (int i = 0; i < width; ++i) {
                 if (!visitedArray[j][i]) {
@@ -79,36 +51,25 @@ vector<Edge> HuntAndKill::generate() {
         }
         //        loop as killing continuously
         while (keepKilling) {
-            //            if (starting) {
-            //                int numberOfNeighbours = 0;
             
             //                create a vector to store neighbour cell
             vector<Coordinator> neighbours;
-            //                neighbours.clear();
-            
             //                looking for neighbours
             
-            //                bool hasTop = false;
             if (startingCell.getX() - 1 > -1) {
                 Coordinator topCell;
                 topCell.setX(startingCell.getX() - 1);
                 topCell.setY(startingCell.getY());
                 neighbours.push_back(topCell);
-                //                    hasTop = true;
-                //                    numberOfNeighbours++;
             }
             
-            //                bool hasRight = false;
             if (startingCell.getY() + 1 < width) {
                 Coordinator rightCell;
                 rightCell.setX(startingCell.getX());
                 rightCell.setY(startingCell.getY() + 1);
                 neighbours.push_back(rightCell);
-                //                    hasRight = true;
-                //                    numberOfNeighbours++;
             }
             
-            //                bool hasBottom = false;
             if (startingCell.getX() + 1 < height) {
                 Coordinator bottomCell;
                 bottomCell.setX(startingCell.getX() + 1);
@@ -118,20 +79,15 @@ vector<Edge> HuntAndKill::generate() {
                 //                    numberOfNeighbours++;
             }
             
-            //                bool hasLeft = false;
             if (startingCell.getY() - 1 > -1) {
                 Coordinator leftCell;
                 leftCell.setX(startingCell.getX());
                 leftCell.setY(startingCell.getY() - 1);
                 neighbours.push_back(leftCell);
-                //                    hasLeft = true;
-                //                    numberOfNeighbours++;
             }
             
             //                create vector to store checked neighbours randomly
             vector<int> randomizedNeighbours;
-            //                randomizedNeighbours.clear();
-            //                coordinator nextCell;
             
             //                loop to check all neighbours randomly to find a not visited neighbour
             bool keepSeeking = true;
@@ -161,8 +117,6 @@ vector<Edge> HuntAndKill::generate() {
                         edges.push_back(edge1);
                         startingCell.setX(neighbour.getX());
                         startingCell.setY(neighbour.getY());
-//TODO fix to print notification
-//                        printLineWith("killed");
                     }
                 } else {
                     //                        else check if the neighbours vector is all checked
@@ -172,7 +126,6 @@ vector<Edge> HuntAndKill::generate() {
                     }
                 }
             }
-            //            }
         }
         
         //        hunting
@@ -188,46 +141,32 @@ vector<Edge> HuntAndKill::generate() {
                     
                     //                    create a vector to store neighbour cell
                     vector<Coordinator> neighbours;
-                    //                    neighbours.clear();
-                    
-                    //                bool hasTop = false;
                     if (startingCell.getX() - 1 > -1) {
                         Coordinator topCell;
                         topCell.setX(startingCell.getX() - 1);
                         topCell.setY(startingCell.getY());
                         neighbours.push_back(topCell);
-                        //                    hasTop = true;
-                        //                    numberOfNeighbours++;
                     }
                     
-                    //                bool hasRight = false;
                     if (startingCell.getY() + 1 < width) {
                         Coordinator rightCell;
                         rightCell.setX(startingCell.getX());
                         rightCell.setY(startingCell.getY() + 1);
                         neighbours.push_back(rightCell);
-                        //                    hasRight = true;
-                        //                    numberOfNeighbours++;
                     }
                     
-                    //                bool hasBottom = false;
                     if (startingCell.getX() + 1 < height) {
                         Coordinator bottomCell;
                         bottomCell.setX(startingCell.getX() + 1);
                         bottomCell.setY(startingCell.getY());
                         neighbours.push_back(bottomCell);
-                        //                    hasBottom = true;
-                        //                    numberOfNeighbours++;
                     }
                     
-                    //                bool hasLeft = false;
                     if (startingCell.getY() - 1 > -1) {
                         Coordinator leftCell;
                         leftCell.setX(startingCell.getX());
                         leftCell.setY(startingCell.getY() - 1);
                         neighbours.push_back(leftCell);
-                        //                    hasLeft = true;
-                        //                    numberOfNeighbours++;
                     }
                     //                    check if any neighbour is visited, if not break to find the next cel
                     for (int j = 0; j < neighbours.size(); ++j) {
@@ -269,8 +208,6 @@ vector<Edge> HuntAndKill::generate() {
                                     edge1.setCoordinator1(startingCell);
                                     edge1.setCoordinator2(neighbour);
                                     edges.push_back(edge1);
-//TODO fix to print out notification
-//                                    printLineWith("hunted");
                                 }
                             } else {
                                 //                                else check if the neighbours vector is all checked
@@ -305,25 +242,5 @@ vector<Edge> HuntAndKill::generate() {
             }
         }
     }
-    
-    //    print edges
-    for (int n = 0; n < edges.size(); ++n) {
-        Edge edge1 = edges[n];
-//TODO fix to print out the edge
-//        cout << edge1.first.first << " " << edge1.first.second << " : " << edge1.second.first << " "
-//        << edge1.second.second << endl;
-    }
-    
-    //    mt19937 generator;
-    //    if (withSeed) {
-    //        generator.seed(time(nullptr) + seed);
-    //    } else {
-    //        generator.seed(time(nullptr));
-    //    }
-    //    uniform_int_distribution<u_int32_t> dice(0, width);
-    //    dice(generator);
-    //    uniform_int_distribution<u_int32_t> dice(0, height);
-    //    dice(generator);
-
     return edges;
 }

@@ -10,8 +10,7 @@
 
 Generator::Generator() {}
 
-Generator::Generator(int seed, int width, int height, bool withSeed) : seed(seed), width(width), height(height),
-                                                                       withSeed(withSeed) {}
+Generator::Generator(int seed, int width, int height) : seed(seed), width(width), height(height) {}
 
 Generator::~Generator() {
 
@@ -39,12 +38,4 @@ int Generator::getHeight() const {
 
 void Generator::setHeight(int height) {
     Generator::height = height;
-}
-
-bool Generator::isWithSeed() const {
-    return withSeed;
-}
-
-void Generator::setWithSeed(bool withSeed) {
-    Generator::withSeed = withSeed;
 }

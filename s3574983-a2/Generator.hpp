@@ -20,12 +20,11 @@ private:
     int seed;
     int width;
     int height;
-    bool withSeed;
     
 public:
     Generator();
 
-    Generator(int seed, int width, int height, bool withSeed);
+    Generator(int seed, int width, int height);
 
     virtual ~Generator();
 
@@ -40,10 +39,6 @@ public:
     int getHeight() const;
 
     void setHeight(int height);
-
-    bool isWithSeed() const;
-
-    void setWithSeed(bool withSeed);
 };
 
 #endif /* Generator_hpp */

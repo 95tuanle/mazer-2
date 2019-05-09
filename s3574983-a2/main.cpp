@@ -266,9 +266,8 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
-                        generator->setWithSeed(true);
                         edgesVector = huntAndKill.generate();
-                        printMazePath(edgesVector);
+//                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
                         printLineWith(NOT_LARGER_THAN_ZERO);
@@ -304,9 +303,8 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
-                            generator->setWithSeed(true);
                             edgesVector = huntAndKill.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -319,12 +317,13 @@ void getUserInput() {
                             mainHeight = secondField;
                             HuntAndKill huntAndKill;
                             Generator *generator = &huntAndKill;
-                            generator->setSeed(0);
+                            int seed = (int) time(0);
+                            printLineWith("Your seed is " + to_string(seed));
+                            generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
-                            generator->setWithSeed(false);
                             edgesVector = huntAndKill.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -354,9 +353,8 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
-                        generator->setWithSeed(true);
                         edgesVector = growingTree.generate();
-                        printMazePath(edgesVector);
+//                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
                         printLineWith(NOT_LARGER_THAN_ZERO);
@@ -386,9 +384,8 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
-                            generator->setWithSeed(true);
                             edgesVector = growingTree.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -401,12 +398,13 @@ void getUserInput() {
                             mainHeight = secondField;
                             GrowingTree growingTree;
                             Generator *generator = &growingTree;
-                            generator->setSeed(0);
+                            int seed = (int) time(0);
+                            printLineWith("Your seed is " + to_string(seed));
+                            generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
-                            generator->setWithSeed(false);
                             edgesVector = growingTree.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -437,9 +435,8 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
-                        generator->setWithSeed(true);
                         edgesVector = prims.generate();
-                        printMazePath(edgesVector);
+//                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
                         printLineWith(NOT_LARGER_THAN_ZERO);
@@ -469,9 +466,8 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
-                            generator->setWithSeed(true);
                             edgesVector = prims.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -484,12 +480,13 @@ void getUserInput() {
                             mainHeight = secondField;
                             Prims prims;
                             Generator *generator = &prims;
-                            generator->setSeed(0);
+                            int seed = (int) time(0);
+                            printLineWith("Your seed is " + to_string(seed));
+                            generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
-                            generator->setWithSeed(false);
                             edgesVector = prims.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -519,9 +516,8 @@ void getUserInput() {
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
-                        generator->setWithSeed(true);
                         edgesVector = recursiveBacktracking.generate();
-                        printMazePath(edgesVector);
+//                        printMazePath(edgesVector);
                     } else {
                         canCallSaveFunctions = false;
                         printLineWith(NOT_LARGER_THAN_ZERO);
@@ -551,9 +547,8 @@ void getUserInput() {
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
-                            generator->setWithSeed(true);
                             edgesVector = recursiveBacktracking.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);
@@ -566,12 +561,13 @@ void getUserInput() {
                             mainHeight = secondField;
                             RecursiveBacktracking recursiveBacktracking;
                             Generator *generator = &recursiveBacktracking;
-                            generator->setSeed(0);
+                            int seed = (int) time(0);
+                            printLineWith("Your seed is " + to_string(seed));
+                            generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
-                            generator->setWithSeed(false);
                             edgesVector = recursiveBacktracking.generate();
-                            printMazePath(edgesVector);
+//                            printMazePath(edgesVector);
                         } else {
                             canCallSaveFunctions = false;
                             printLineWith(NOT_LARGER_THAN_ZERO);

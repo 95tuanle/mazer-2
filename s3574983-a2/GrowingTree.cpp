@@ -10,10 +10,10 @@
 typedef pair<bool, bool> visitedAndDeleted;
 
 vector<Edge> GrowingTree::generate() {
-    long seed = getSeed();
+    int seed = getSeed();
+    srand(seed);
     int height = getHeight();
     int width = getWidth();
-    bool withSeed = isWithSeed();
     //    create an array to monitor visited cells
     visitedAndDeleted visitedAndDeletedArray[height][width];
     for (int m = 0; m < height; ++m) {
@@ -26,11 +26,6 @@ vector<Edge> GrowingTree::generate() {
     
     //    create vector to store edges
     vector<Edge> edges;
-    //    check user input seed
-    if (!withSeed) {
-        seed = time(0);
-    }
-    srand((int) seed);
     
     bool keepDeleting = true;
     bool keepCarving = true;

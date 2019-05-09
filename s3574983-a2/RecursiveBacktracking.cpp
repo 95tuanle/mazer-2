@@ -10,10 +10,10 @@
 #include <stack>
 
 vector<Edge> RecursiveBacktracking::generate() {
-    long seed = getSeed();
+    int seed = getSeed();
+    srand(seed);
     int height = getHeight();
     int width = getWidth();
-    bool withSeed = isWithSeed();
     //    create an array to monitor visited cells
     bool visitedArray[height][width];
     for (int m = 0; m < height; ++m) {
@@ -25,14 +25,6 @@ vector<Edge> RecursiveBacktracking::generate() {
     //    create vector to store edges
     vector<Edge> edges;
     stack<Coordinator> visitedCoordinators;
-    //    check user input seed
-    if (!withSeed) {
-        seed = time(0);
-    }
-    srand((int) seed);
-    
-//    bool keepBacktracking = true;
-    
     
     //    generate a random stating cell
     Coordinator startingCell;
