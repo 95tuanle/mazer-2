@@ -36,7 +36,11 @@ stdio.h
 Generator.hpp
 /Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
 
-/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.cpp
+Prim.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.hpp
+
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.hpp
 stdio.h
 -
 Generator.hpp
@@ -67,8 +71,8 @@ HuntAndKill.hpp
 /Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.hpp
 GrowingTree.hpp
 /Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.hpp
-Prims.hpp
-/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prims.hpp
+Prim.hpp
+/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.hpp
 RecursiveBacktracking.hpp
 /Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp
 

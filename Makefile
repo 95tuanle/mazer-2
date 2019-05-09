@@ -258,32 +258,32 @@ s3574983-a2/HuntAndKill.cpp.s:
 	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.s
 .PHONY : s3574983-a2/HuntAndKill.cpp.s
 
-s3574983-a2/Prims.o: s3574983-a2/Prims.cpp.o
+s3574983-a2/Prim.o: s3574983-a2/Prim.cpp.o
 
-.PHONY : s3574983-a2/Prims.o
+.PHONY : s3574983-a2/Prim.o
 
 # target to build an object file
-s3574983-a2/Prims.cpp.o:
-	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.o
-.PHONY : s3574983-a2/Prims.cpp.o
+s3574983-a2/Prim.cpp.o:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prim.cpp.o
+.PHONY : s3574983-a2/Prim.cpp.o
 
-s3574983-a2/Prims.i: s3574983-a2/Prims.cpp.i
+s3574983-a2/Prim.i: s3574983-a2/Prim.cpp.i
 
-.PHONY : s3574983-a2/Prims.i
+.PHONY : s3574983-a2/Prim.i
 
 # target to preprocess a source file
-s3574983-a2/Prims.cpp.i:
-	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.i
-.PHONY : s3574983-a2/Prims.cpp.i
+s3574983-a2/Prim.cpp.i:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prim.cpp.i
+.PHONY : s3574983-a2/Prim.cpp.i
 
-s3574983-a2/Prims.s: s3574983-a2/Prims.cpp.s
+s3574983-a2/Prim.s: s3574983-a2/Prim.cpp.s
 
-.PHONY : s3574983-a2/Prims.s
+.PHONY : s3574983-a2/Prim.s
 
 # target to generate assembly for a file
-s3574983-a2/Prims.cpp.s:
-	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prims.cpp.s
-.PHONY : s3574983-a2/Prims.cpp.s
+s3574983-a2/Prim.cpp.s:
+	$(MAKE) -f CMakeFiles/s3574983_a2.dir/build.make CMakeFiles/s3574983_a2.dir/s3574983-a2/Prim.cpp.s
+.PHONY : s3574983-a2/Prim.cpp.s
 
 s3574983-a2/RecursiveBacktracking.o: s3574983-a2/RecursiveBacktracking.cpp.o
 
@@ -363,9 +363,9 @@ help:
 	@echo "... s3574983-a2/HuntAndKill.o"
 	@echo "... s3574983-a2/HuntAndKill.i"
 	@echo "... s3574983-a2/HuntAndKill.s"
-	@echo "... s3574983-a2/Prims.o"
-	@echo "... s3574983-a2/Prims.i"
-	@echo "... s3574983-a2/Prims.s"
+	@echo "... s3574983-a2/Prim.o"
+	@echo "... s3574983-a2/Prim.i"
+	@echo "... s3574983-a2/Prim.s"
 	@echo "... s3574983-a2/RecursiveBacktracking.o"
 	@echo "... s3574983-a2/RecursiveBacktracking.i"
 	@echo "... s3574983-a2/RecursiveBacktracking.s"

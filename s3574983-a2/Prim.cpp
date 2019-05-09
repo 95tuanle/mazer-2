@@ -1,14 +1,14 @@
 //
-//  Prims.cpp
+//  Prim.cpp
 //  s3574983-a2
 //
 //  Created by Tuan Le on 5/1/19.
 //  Copyright © 2019 RMIT. All rights reserved.
 //
 
-#include "Prims.hpp"
+#include "Prim.hpp"
 
-vector<Edge> Prims::generate() {
+vector<Edge> Prim::generate() {
     int seed = getSeed();
     srand(seed);
     int height = getHeight();

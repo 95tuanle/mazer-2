@@ -15,7 +15,7 @@
 #include "Edge.hpp"
 #include "HuntAndKill.hpp"
 #include "GrowingTree.hpp"
-#include "Prims.hpp"
+#include "Prim.hpp"
 #include "RecursiveBacktracking.hpp"
 
 using namespace chrono;
@@ -87,8 +87,8 @@ void getUserInput() {
         pair<int, bool> hasHuntAndKillOpt;
         pair<int, bool> hasGrowingTree;
         pair<int, bool> hasGrowingTreeOpt;
-        pair<int, bool> hasPrims;
-        pair<int, bool> hasPrimsOpt;
+        pair<int, bool> hasPrim;
+        pair<int, bool> hasPrimOpt;
         pair<int, bool> hasRecursiveBacktracking;
         pair<int, bool> hasRecursiveBacktrackingOpt;
         pair<int, bool> hasLoadBinary;
@@ -152,9 +152,9 @@ void getUserInput() {
                     break;
                 }
             } else if (userInputVector[i] == "--gp") {
-                if (!hasPrims.second) {
-                    hasPrims.first = i;
-                    hasPrims.second = true;
+                if (!hasPrim.second) {
+                    hasPrim.first = i;
+                    hasPrim.second = true;
                     isValidInputFlag = true;
                 } else {
                     isValidInputFlag = false;
@@ -162,9 +162,9 @@ void getUserInput() {
                     break;
                 }
             } else if (userInputVector[i] == "-gp") {
-                if (!hasPrimsOpt.second) {
-                    hasPrimsOpt.first = i;
-                    hasPrimsOpt.second = true;
+                if (!hasPrimOpt.second) {
+                    hasPrimOpt.first = i;
+                    hasPrimOpt.second = true;
                     isValidInputFlag = true;
                 } else {
                     isValidInputFlag = false;
@@ -441,27 +441,27 @@ void getUserInput() {
                 }
             }
             
-            if (hasPrims.second) {
+            if (hasPrim.second) {
                 int seed = 0;
                 int width = 0;
                 int height = 0;
                 try {
                     // convert input to int
-                    seed = stoi(userInputVector[hasPrims.first+1]);
-                    width = stoi(userInputVector[hasPrims.first+2]);
-                    height = stoi(userInputVector[hasPrims.first+3]);
+                    seed = stoi(userInputVector[hasPrim.first+1]);
+                    width = stoi(userInputVector[hasPrim.first+2]);
+                    height = stoi(userInputVector[hasPrim.first+3]);
                     if (seed > 0 && width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling prim's func");
                         mainWidth = width;
                         mainHeight = height;
-                        Prims prims;
-                        Generator *generator = &prims;
+                        Prim prim;
+                        Generator *generator = &prim;
                         generator->setSeed(seed);
                         generator->setWidth(width);
                         generator->setHeight(height);
                         auto start = high_resolution_clock::now();
-                        edgesVector = prims.generate();
+                        edgesVector = prim.generate();
                         auto stop = high_resolution_clock::now();
                         auto duration = duration_cast<milliseconds>(stop - start);
                         printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
@@ -475,28 +475,28 @@ void getUserInput() {
                     printLineWith(WRONG_FORMAT_G_FLAG);
                 }
             }
-            if (hasPrimsOpt.second) {
+            if (hasPrimOpt.second) {
                 int firstField = 0;
                 int secondField = 0;
                 try {
                     // convert input to int
-                    firstField = stoi(userInputVector[hasPrimsOpt.first+1]);
-                    secondField = stoi(userInputVector[hasPrimsOpt.first+2]);
+                    firstField = stoi(userInputVector[hasPrimOpt.first+1]);
+                    secondField = stoi(userInputVector[hasPrimOpt.first+2]);
                     int thirdField = 0;
                     try {
-                        thirdField = stoi(userInputVector[hasPrimsOpt.first+3]);
+                        thirdField = stoi(userInputVector[hasPrimOpt.first+3]);
                         if (firstField > 0 && secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling prim's with optional seed func");
                             mainWidth = secondField;
                             mainHeight = thirdField;
-                            Prims prims;
-                            Generator *generator = &prims;
+                            Prim prim;
+                            Generator *generator = &prim;
                             generator->setSeed(firstField);
                             generator->setWidth(secondField);
                             generator->setHeight(thirdField);
                             auto start = high_resolution_clock::now();
-                            edgesVector = prims.generate();
+                            edgesVector = prim.generate();
                             auto stop = high_resolution_clock::now();
                             auto duration = duration_cast<milliseconds>(stop - start);
                             printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
@@ -511,15 +511,15 @@ void getUserInput() {
 //                            printLineWith("calling prim's without optional seed func");
                             mainWidth = firstField;
                             mainHeight = secondField;
-                            Prims prims;
-                            Generator *generator = &prims;
+                            Prim prim;
+                            Generator *generator = &prim;
                             int seed = (int) time(0);
                             printLineWith("Your seed is " + to_string(seed));
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
                             generator->setHeight(secondField);
                             auto start = high_resolution_clock::now();
-                            edgesVector = prims.generate();
+                            edgesVector = prim.generate();
                             auto stop = high_resolution_clock::now();
                             auto duration = duration_cast<milliseconds>(stop - start);
                             printLineWith("Generating time is " + to_string(duration.count()) + " milliseconds");
@@ -640,7 +640,7 @@ void getUserInput() {
             }
             
             if ((hasHuntAndKill.second || hasHuntAndKillOpt.second || hasGrowingTree.second ||
-            hasGrowingTreeOpt.second || hasPrims.second || hasPrimsOpt.second || hasRecursiveBacktracking.second ||
+            hasGrowingTreeOpt.second || hasPrim.second || hasPrimOpt.second || hasRecursiveBacktracking.second ||
             hasRecursiveBacktrackingOpt.second || hasLoadBinary.second || hasLoadSvg.second) && canCallSaveFunctions) {
                 if (hasSaveBinary.second) {
                     // TODO check file format and validate user input

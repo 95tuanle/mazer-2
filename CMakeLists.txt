@@ -20,7 +20,7 @@ add_executable(s3574983_a2
         s3574983-a2/HuntAndKill.cpp
         s3574983-a2/HuntAndKill.hpp
         s3574983-a2/main.cpp
-        s3574983-a2/Prims.cpp
-        s3574983-a2/Prims.hpp
+        s3574983-a2/Prim.cpp
+        s3574983-a2/Prim.hpp
         s3574983-a2/RecursiveBacktracking.cpp
         s3574983-a2/RecursiveBacktracking.hpp)
