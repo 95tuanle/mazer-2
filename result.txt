@@ -1,0 +1,3 @@
+Average Growing Tree runtime is 611010 milliseconds
+Average Prim's runtime is 584978 milliseconds
+Average Recursive Backtracking runtime is 40084 milliseconds

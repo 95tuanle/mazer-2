@@ -6,27 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.cpp
-Coordinator.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.hpp
-
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.hpp
 stdio.h
 -
-
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.cpp
-Edge.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.hpp
 
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.hpp
 stdio.h
 -
 Coordinator.hpp
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Coordinator.hpp
-
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.cpp
-Generator.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
 
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
 stdio.h
@@ -36,19 +24,11 @@ vector
 Edge.hpp
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Edge.hpp
 
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.cpp
-GrowingTree.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.hpp
-
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/GrowingTree.hpp
 stdio.h
 -
 Generator.hpp
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
-
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.cpp
-HuntAndKill.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.hpp
 
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/HuntAndKill.hpp
 stdio.h
@@ -56,21 +36,11 @@ stdio.h
 Generator.hpp
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
 
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.cpp
-Prim.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.hpp
-
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Prim.hpp
 stdio.h
 -
 Generator.hpp
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/Generator.hpp
-
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.cpp
-RecursiveBacktracking.hpp
-/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp
-stack
--
 
 /Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/s3574983-a2/RecursiveBacktracking.hpp
 stdio.h

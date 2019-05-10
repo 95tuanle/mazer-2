@@ -52,6 +52,9 @@ Student: _Le Nguyen Anh Tuan (s3574983)_
     - **_WARNING:_** **There might be `Segmentation fault: 11` due to a problem when processing user's input, please re-run execution file and try again**
 
 - Timing when generating and saving
+Average Growing Tree runtime is 611010 milliseconds
+Average Prim's runtime is 584978 milliseconds
+Average Recursive Backtracking runtime is 40084 milliseconds
 
 
 ~~Unaccomplished functions:~~
