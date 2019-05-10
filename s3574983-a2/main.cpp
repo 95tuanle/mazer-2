@@ -35,9 +35,9 @@ void printMazePath(const vector<Edge>& vector);
 void benchmark();
 
 int main(int argc, const char * argv[]) {
-//    getUserInput();
+    getUserInput();
     
-    benchmark();
+//    benchmark();
     
 //    RecursiveBacktracking growingTree;
 //    Generator *generator = &growingTree;
