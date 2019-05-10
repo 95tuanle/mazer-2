@@ -75,7 +75,7 @@ Student: _Le Nguyen Anh Tuan (s3574983)_
             
             - 10 times of generating Recursive Backtracking maze (2000 x 2000) + saving SVG + saving binary
             
-        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Result.png)
+        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Results.png)
         
         
         Average Growing Tree runtime is 611010 milliseconds
