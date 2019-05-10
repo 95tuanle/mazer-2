@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.14.3/bin/cmake
+CMAKE_COMMAND = /Applications/apps/CLion/ch-0/191.6707.69/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.14.3/bin/cmake -E remove -f
+RM = /Applications/apps/CLion/ch-0/191.6707.69/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2"
+CMAKE_SOURCE_DIR = "/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2"
+CMAKE_BINARY_DIR = "/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/S
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.14.3/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/apps/CLion/ch-0/191.6707.69/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.14.3/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/apps/CLion/ch-0/191.6707.69/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/CMakeFiles" "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/CMakeFiles" "/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mediba013/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

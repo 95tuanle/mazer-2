@@ -32,10 +32,12 @@ void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName
 
 void printMazePath(const vector<Edge>& vector);
 
-int main(int argc, const char * argv[]) {
+void benchmark();
 
-    
+int main(int argc, const char * argv[]) {
     getUserInput();
+    
+//    benchmark();
     
 //    RecursiveBacktracking growingTree;
 //    Generator *generator = &growingTree;
@@ -56,13 +58,10 @@ int main(int argc, const char * argv[]) {
 //    tuan.push_back(3);
 //    tuan.push_back(4);
 //    tuan.push_back(5);
-//
 //    for (int i = 0; i < tuan.size(); i++) {
 //        cout << tuan[i] << endl;
 //    }
-//
 //    tuan.erase(tuan.begin() + 1);
-//
 //    for (int i = 0; i < tuan.size(); i++) {
 //        cout << tuan[i] << endl;
 //    }
@@ -726,4 +725,60 @@ void printMazePath(const vector<Edge>& vector) {
     for (auto & edge : vector) {
         cout << edge.getCoordinator1().getX() << ":" << edge.getCoordinator1().getY() << " | " << edge.getCoordinator2().getX() << ":" << edge.getCoordinator2().getY() << endl;
     }
+}
+
+void benchmark() {
+    // Growing Tree
+    int totalGrowingTreeRuntime = 0;
+    for (int i = 1; i <= 10; i++) {
+        GrowingTree growingTree;
+        Generator *generator = &growingTree;
+        generator->setSeed(0);
+        generator->setWidth(2000);
+        generator->setHeight(2000);
+        auto start = high_resolution_clock::now();
+        vector<Edge> edgesVector = growingTree.generate();
+        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", edgesVector, 2000, 200);
+        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze", edgesVector, 2000, 200);
+        auto stop = high_resolution_clock::now();
+        auto duration = duration_cast<milliseconds>(stop - start);
+        totalGrowingTreeRuntime += duration.count();
+    }
+    printLineWith("Average Growing Tree runtime is " + to_string(totalGrowingTreeRuntime/10) + " milliseconds");
+    
+    // Prim's
+    int totalPrimRuntime = 0;
+    for (int i = 1; i <= 10; i++) {
+        Prim prim;
+        Generator *generator = &prim;
+        generator->setSeed(0);
+        generator->setWidth(2000);
+        generator->setHeight(2000);
+        auto start = high_resolution_clock::now();
+        vector<Edge> edgesVector = prim.generate();
+        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", edgesVector, 2000, 200);
+        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze", edgesVector, 2000, 200);
+        auto stop = high_resolution_clock::now();
+        auto duration = duration_cast<milliseconds>(stop - start);
+        totalPrimRuntime += duration.count();
+    }
+    printLineWith("Average Prim's runtime is " + to_string(totalPrimRuntime/10) + " milliseconds");
+    
+    // Recursive Backtracking
+    int totalRecursiveBacktrackingRuntime = 0;
+    for (int i = 1; i <= 10; i++) {
+        RecursiveBacktracking recursiveBacktracking;
+        Generator *generator = &recursiveBacktracking;
+        generator->setSeed(0);
+        generator->setWidth(2000);
+        generator->setHeight(2000);
+        auto start = high_resolution_clock::now();
+        vector<Edge> edgesVector = recursiveBacktracking.generate();
+        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", edgesVector, 2000, 200);
+        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze", edgesVector, 2000, 200);
+        auto stop = high_resolution_clock::now();
+        auto duration = duration_cast<milliseconds>(stop - start);
+        totalRecursiveBacktrackingRuntime += duration.count();
+    }
+    printLineWith("Average Recursive Backtracking runtime is " + to_string(totalRecursiveBacktrackingRuntime/10) + " milliseconds");
 }
