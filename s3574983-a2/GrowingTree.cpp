@@ -9,11 +9,12 @@
 #include "GrowingTree.hpp"
 
 vector<Edge> GrowingTree::generate() {
+//    set up
     int seed = getSeed();
     srand(seed);
     int height = getHeight();
     int width = getWidth();
-    //    create an array to monitor visited cells
+//    create an array to monitor visited cells
     bool visitedArray[height][width];
     for (int m = 0; m < height; ++m) {
         for (int i = 0; i < width; ++i) {
@@ -21,18 +22,20 @@ vector<Edge> GrowingTree::generate() {
         }
     }
     
-    //    create vector to store edges
+//    create vector to store edges
     vector<Edge> edges;
     vector<Coordinator> visitedCoordinators;
     
-    //    generate a random stating cell
+//    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
     startingCell.setY(rand() % width);
-    //    flag it as visited
+//    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
     visitedCoordinators.push_back(startingCell);
+    
     while (!visitedCoordinators.empty()) {
+//        index unvisited neighbour coordinators
         vector<Coordinator> neighbours;
         
         if (startingCell.getX() - 1 > -1) {
@@ -70,7 +73,7 @@ vector<Edge> GrowingTree::generate() {
                 neighbours.push_back(leftCell);
             }
         }
-        
+//        if not empty randomize a new stating cell, mark it as visited and add it to edges with the previous staring cell
         if (!neighbours.empty()) {
             Edge edge;
             edge.setCoordinator1(startingCell);
@@ -79,16 +82,19 @@ vector<Edge> GrowingTree::generate() {
             edge.setCoordinator2(startingCell);
             edges.push_back(edge);
             visitedArray[startingCell.getX()][startingCell.getY()] = true;
+//            put the new stating cell to visited vector
             visitedCoordinators.push_back(startingCell);
-            
+//            randomize a new starting cell from visited vector
             currentRandom = rand() % visitedCoordinators.size();
             startingCell = visitedCoordinators[currentRandom];
+//        if empty delete the current stating cell from visited visited
         } else {
             visitedCoordinators.erase(std::remove_if(visitedCoordinators.begin(), visitedCoordinators.end(),
                                                      [&startingCell](const Coordinator& coordinator) {
                                                          return coordinator.getX() == startingCell.getX() &&
                                                          coordinator.getY() == startingCell.getY();
                                                      }), visitedCoordinators.end());
+//            if visited vector is not empty, randomize a new starting cell from visited vector
             if (!visitedCoordinators.empty()) {
                 int currentRandom = rand() % visitedCoordinators.size();
                 startingCell = visitedCoordinators[currentRandom];

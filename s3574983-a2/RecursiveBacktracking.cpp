@@ -10,11 +10,12 @@
 #include <stack>
 
 vector<Edge> RecursiveBacktracking::generate() {
+//    set up
     int seed = getSeed();
     srand(seed);
     int height = getHeight();
     int width = getWidth();
-    //    create an array to monitor visited cells
+//    create an array to monitor visited cells
     bool visitedArray[height][width];
     for (int m = 0; m < height; ++m) {
         for (int i = 0; i < width; ++i) {
@@ -22,20 +23,22 @@ vector<Edge> RecursiveBacktracking::generate() {
         }
     }
     
-    //    create vector to store edges
+//    create vector to store edges
     vector<Edge> edges;
     stack<Coordinator> visitedCoordinators;
     
-    //    generate a random stating cell
+//    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
     startingCell.setY(rand() % width);
-    //    flag it as visited
+//    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
     visitedCoordinators.push(startingCell);
     while (!visitedCoordinators.empty()) {
+//        killing phrase (optimized/improved) compared to old Hunt and Kill algorithm code
         bool keepKilling = true;
         while (keepKilling) {
+//            index unvisited neighbour coordinators
             vector<Coordinator> neighbours;
             
             if (startingCell.getX() - 1 > -1) {
@@ -73,7 +76,7 @@ vector<Edge> RecursiveBacktracking::generate() {
                     neighbours.push_back(leftCell);
                 }
             }
-            
+//            if not empty randomize a new stating cell, mark it as visited and add it to edges with the previous staring cell
             if (!neighbours.empty()) {
                 Edge edge;
                 edge.setCoordinator1(startingCell);
@@ -82,9 +85,12 @@ vector<Edge> RecursiveBacktracking::generate() {
                 edge.setCoordinator2(startingCell);
                 edges.push_back(edge);
                 visitedArray[startingCell.getX()][startingCell.getY()] = true;
+//                put the new stating cell to visited stack
                 visitedCoordinators.push(startingCell);
+//            if empty delete the latest added cell from visited stack and stop killing
             } else {
                 visitedCoordinators.pop();
+//                if visited stack is not empty, pick lasted added cell as a new starting cell from visited stack
                 if (!visitedCoordinators.empty()) {
                     startingCell = visitedCoordinators.top();
                 }

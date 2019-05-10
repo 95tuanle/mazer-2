@@ -9,28 +9,29 @@
 #include "Prim.hpp"
 
 vector<Edge> Prim::generate() {
+//    set up
     int seed = getSeed();
     srand(seed);
     int height = getHeight();
     int width = getWidth();
-    //    create an array to monitor visited cells
+//    create an array to monitor visited cells
     bool visitedArray[height][width];
     for (int m = 0; m < height; ++m) {
         for (int i = 0; i < width; ++i) {
             visitedArray[m][i] = false;
         }
     }
-    //    create vector to store edges
+//    create vector to store edges
     vector<Edge> edges;
     vector<Coordinator> frontiers;
         
-    //    generate a random stating cell
+//    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
     startingCell.setY(rand() % width);
-    //    flag it as visited
+//    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
-    
+//    index frontier coordinators
     if (startingCell.getX() - 1 > -1) {
         if (!visitedArray[startingCell.getX() - 1][startingCell.getY()]) {
             Coordinator topCell;
@@ -68,6 +69,7 @@ vector<Edge> Prim::generate() {
     }
     
     while (!frontiers.empty()) {
+//        randomize a new stating cell, mark it as visited, delete it from frontier list and prepare for adding it to edges
         int currentRandom = rand() % frontiers.size();
         startingCell = frontiers[currentRandom];
         Edge edge;
@@ -78,6 +80,7 @@ vector<Edge> Prim::generate() {
                                                      return coordinator.getX() == startingCell.getX() &&
                                                      coordinator.getY() == startingCell.getY();
                                                  }), frontiers.end());
+//        index neighbours if neighbours are not visited, add it to frontier list, otherwise add it to visited neighbours
         vector<Coordinator> visitedNeighbours;
         
         if (startingCell.getX() - 1 > -1) {
@@ -123,7 +126,7 @@ vector<Edge> Prim::generate() {
                 frontiers.push_back(leftCell);
             }
         }
-        
+//        randomize a new starting cell from visited neighbours and combine with the previous cell to add it to edges
         currentRandom = rand() % visitedNeighbours.size();
         startingCell = visitedNeighbours[currentRandom];
         edge.setCoordinator2(startingCell);

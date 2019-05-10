@@ -12,8 +12,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c214592-da9c-40c5-8199-330848a1bb14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/mediba013.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/mediba013.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/XCBuildData/build.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/GrowingTree.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/Prim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/RecursiveBacktracking.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Intermediates.noindex/s3574983-a2.build/Debug/s3574983-a2.build/Objects-normal/x86_64/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Products/Debug/s3574983-a2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Coordinator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Edge.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Generator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/GrowingTree.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/HuntAndKill.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/Prim.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/RecursiveBacktracking.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/s3574983_a2.dir/s3574983-a2/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/GrowingTree.o-2X6J6BYARQIU7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/Prim.o-38J22CEVY0BBN" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/Prim.o-38J22CEVY0BBN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/RecursiveBacktracking.o-296AHFN36E312" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/RecursiveBacktracking.o-296AHFN36E312" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" beforeDir="false" afterPath="$PROJECT_DIR$/Index/DataStore/v5/units/main.o-3CEF3CSGOFKA9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screen Shot 2019-05-10 at 14.56.01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screen Shot 2019-05-10 at 17.48.41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2.xcodeproj/project.xcworkspace/xcuserdata/tuanle.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983-a2/Prim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/Prim.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3574983-a2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983-a2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s3574983_a2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/s3574983_a2.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -29,7 +76,45 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s3574983-a2/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#2#0" />
+                <element signature="e#843#1920#0" />
+                <element signature="e#1922#32876#0" />
+                <element signature="e#32878#32964#0" />
+                <element signature="e#32966#34048#0" />
+                <element signature="e#34050#35063#0" />
+                <element signature="e#35065#35331#0" />
+                <element signature="e#35333#38335#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1270">
+              <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1935">
+              <caret line="129" column="58" selection-start-line="129" selection-start-column="58" selection-end-line="129" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -62,12 +147,12 @@
         <option value="$PROJECT_DIR$/s3574983-a2/Prims.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.hpp" />
-        <option value="$PROJECT_DIR$/s3574983-a2/main.cpp" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/s3574983-a2/Prim.hpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/Generator.hpp" />
-        <option value="$PROJECT_DIR$/s3574983-a2/Prim.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/s3574983-a2/main.cpp" />
         <option value="$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp" />
+        <option value="$PROJECT_DIR$/s3574983-a2/Prim.cpp" />
       </list>
     </option>
   </component>
@@ -168,16 +253,18 @@
       <workItem from="1557412763967" duration="1261000" />
       <workItem from="1557415706586" duration="6480000" />
       <workItem from="1557469088904" duration="90000" />
+      <workItem from="1557498185828" duration="2987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21837000" />
+    <option name="totallyTimeSpent" value="24824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24313408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,27 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="570">
-            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="724" column="34" selection-start-line="724" selection-start-column="34" selection-end-line="724" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#2#0" />
-            <element signature="e#122#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -360,13 +426,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Build/Products/Debug/growingtree1000.svg" />
     <entry file="file://$PROJECT_DIR$/Build/Products/Debug/tuanle1000.svg" />
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s3574983-a2/RecursiveBacktracking.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
@@ -390,13 +449,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Build/Products/Debug/MYLIFE.svg" />
     <entry file="file://$PROJECT_DIR$/Build/Products/Debug/tuanle.svg" />
-    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/hixhix.svg" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="51" column="114" selection-start-line="51" selection-start-column="114" selection-end-line="51" selection-end-column="114" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Build/Products/Debug/hixhix.svg" />
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#843#1920#0" />
+            <element signature="e#1922#32876#0" />
+            <element signature="e#32878#32964#0" />
+            <element signature="e#32966#34048#0" />
+            <element signature="e#34050#35063#0" />
+            <element signature="e#35065#35331#0" />
+            <element signature="e#35333#38335#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/GrowingTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1270">
+          <caret line="85" column="56" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s3574983-a2/Prim.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="58" selection-start-line="129" selection-start-column="58" selection-end-line="129" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

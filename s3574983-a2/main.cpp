@@ -20,6 +20,7 @@
 
 using namespace chrono;
 
+// Declare functions
 void getUserInput();
 
 void printLineWith(const string& stringToPrint);
@@ -668,7 +669,6 @@ void getUserInput() {
             printLineWith(INVALID_INPUT_MESSAGE);
         }
     }
-    // while (userInputVector[0] != EXIT && userInput != EXIT);
 }
 
 void printLineWith(const string& stringToPrint) {
