@@ -1,0 +1,4 @@
+Cannot generate into /Users/tuanle/Downloads/mazer-2
+It is already used for project /Users/tuanle/Library/Mobile Documents/com~apple~CloudDocs/School/C++/s3574983-a2
+
+Please either delete it manually or select another generation directory
