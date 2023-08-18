@@ -8,7 +8,7 @@
 
 #include "HuntAndKill.hpp"
 
-vector<Edge> HuntAndKill::generate() {
+vector <Edge> HuntAndKill::generate() {
     int seed = getSeed();
     srand(seed);
     int height = getHeight();
@@ -20,20 +20,20 @@ vector<Edge> HuntAndKill::generate() {
             visitedArray[m][i] = false;
         }
     }
-    
+
     //    create vector to store edges
-    vector<Edge> edges;
-    
+    vector <Edge> edges;
+
     bool keepHunting = true;
     bool keepKilling = true;
-    
+
     //    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
     startingCell.setY(rand() % width);
     //    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
-    
+
     //    loop as hunting continuously
     while (keepHunting) {
         for (int j = 0; j < height; ++j) {
@@ -51,25 +51,25 @@ vector<Edge> HuntAndKill::generate() {
         }
         //        loop as killing continuously
         while (keepKilling) {
-            
+
             //                create a vector to store neighbour cell
-            vector<Coordinator> neighbours;
+            vector <Coordinator> neighbours;
             //                looking for neighbours
-            
+
             if (startingCell.getX() - 1 > -1) {
                 Coordinator topCell;
                 topCell.setX(startingCell.getX() - 1);
                 topCell.setY(startingCell.getY());
                 neighbours.push_back(topCell);
             }
-            
+
             if (startingCell.getY() + 1 < width) {
                 Coordinator rightCell;
                 rightCell.setX(startingCell.getX());
                 rightCell.setY(startingCell.getY() + 1);
                 neighbours.push_back(rightCell);
             }
-            
+
             if (startingCell.getX() + 1 < height) {
                 Coordinator bottomCell;
                 bottomCell.setX(startingCell.getX() + 1);
@@ -78,17 +78,17 @@ vector<Edge> HuntAndKill::generate() {
                 //                    hasBottom = true;
                 //                    numberOfNeighbours++;
             }
-            
+
             if (startingCell.getY() - 1 > -1) {
                 Coordinator leftCell;
                 leftCell.setX(startingCell.getX());
                 leftCell.setY(startingCell.getY() - 1);
                 neighbours.push_back(leftCell);
             }
-            
+
             //                create vector to store checked neighbours randomly
             vector<int> randomizedNeighbours;
-            
+
             //                loop to check all neighbours randomly to find a not visited neighbour
             bool keepSeeking = true;
             while (keepSeeking) {
@@ -127,7 +127,7 @@ vector<Edge> HuntAndKill::generate() {
                 }
             }
         }
-        
+
         //        hunting
         bool foundStarting = false;
         //        loop from left to right, top to bottom to find unvisited cell
@@ -138,30 +138,30 @@ vector<Edge> HuntAndKill::generate() {
                     //                    assume it has a least one
                     startingCell.setX(k);
                     startingCell.setY(i);
-                    
+
                     //                    create a vector to store neighbour cell
-                    vector<Coordinator> neighbours;
+                    vector <Coordinator> neighbours;
                     if (startingCell.getX() - 1 > -1) {
                         Coordinator topCell;
                         topCell.setX(startingCell.getX() - 1);
                         topCell.setY(startingCell.getY());
                         neighbours.push_back(topCell);
                     }
-                    
+
                     if (startingCell.getY() + 1 < width) {
                         Coordinator rightCell;
                         rightCell.setX(startingCell.getX());
                         rightCell.setY(startingCell.getY() + 1);
                         neighbours.push_back(rightCell);
                     }
-                    
+
                     if (startingCell.getX() + 1 < height) {
                         Coordinator bottomCell;
                         bottomCell.setX(startingCell.getX() + 1);
                         bottomCell.setY(startingCell.getY());
                         neighbours.push_back(bottomCell);
                     }
-                    
+
                     if (startingCell.getY() - 1 > -1) {
                         Coordinator leftCell;
                         leftCell.setX(startingCell.getX());
@@ -181,7 +181,7 @@ vector<Edge> HuntAndKill::generate() {
                         //                        create a checked neighbours vector
                         vector<int> randomizedNeighbours;
                         //                        randomizedNeighbours.clear();
-                        
+
                         //                        loop to randomized through neighbours vector
                         bool keepSeeking = true;
                         while (keepSeeking) {

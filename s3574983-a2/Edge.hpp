@@ -16,7 +16,7 @@ class Edge {
 private:
     Coordinator coordinator1;
     Coordinator coordinator2;
-    
+
 public:
     Edge();
 

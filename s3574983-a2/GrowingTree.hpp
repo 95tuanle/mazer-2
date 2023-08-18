@@ -12,11 +12,11 @@
 #include <stdio.h>
 #include "Generator.hpp"
 
-class GrowingTree: public Generator {
-    
-    
+class GrowingTree : public Generator {
+
+
 public:
-    vector<Edge> generate();
+    vector <Edge> generate();
 };
 
 #endif /* GrowingTree_hpp */

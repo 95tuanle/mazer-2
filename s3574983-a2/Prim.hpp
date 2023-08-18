@@ -12,11 +12,11 @@
 #include <stdio.h>
 #include "Generator.hpp"
 
-class Prim: public Generator {
-    
-    
+class Prim : public Generator {
+
+
 public:
-    vector<Edge> generate();
+    vector <Edge> generate();
 };
 
 #endif /* Prim_hpp */

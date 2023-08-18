@@ -8,7 +8,7 @@
 
 #include "GrowingTree.hpp"
 
-vector<Edge> GrowingTree::generate() {
+vector <Edge> GrowingTree::generate() {
 //    set up
     int seed = getSeed();
     srand(seed);
@@ -21,11 +21,11 @@ vector<Edge> GrowingTree::generate() {
             visitedArray[m][i] = false;
         }
     }
-    
+
 //    create vector to store edges
-    vector<Edge> edges;
-    vector<Coordinator> visitedCoordinators;
-    
+    vector <Edge> edges;
+    vector <Coordinator> visitedCoordinators;
+
 //    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
@@ -33,11 +33,11 @@ vector<Edge> GrowingTree::generate() {
 //    flag it as visited
     visitedArray[startingCell.getX()][startingCell.getY()] = true;
     visitedCoordinators.push_back(startingCell);
-    
+
     while (!visitedCoordinators.empty()) {
 //        index unvisited neighbour coordinators
-        vector<Coordinator> neighbours;
-        
+        vector <Coordinator> neighbours;
+
         if (startingCell.getX() - 1 > -1) {
             if (!visitedArray[startingCell.getX() - 1][startingCell.getY()]) {
                 Coordinator topCell;
@@ -46,7 +46,7 @@ vector<Edge> GrowingTree::generate() {
                 neighbours.push_back(topCell);
             }
         }
-        
+
         if (startingCell.getY() + 1 < width) {
             if (!visitedArray[startingCell.getX()][startingCell.getY() + 1]) {
                 Coordinator rightCell;
@@ -55,7 +55,7 @@ vector<Edge> GrowingTree::generate() {
                 neighbours.push_back(rightCell);
             }
         }
-        
+
         if (startingCell.getX() + 1 < height) {
             if (!visitedArray[startingCell.getX() + 1][startingCell.getY()]) {
                 Coordinator bottomCell;
@@ -64,7 +64,7 @@ vector<Edge> GrowingTree::generate() {
                 neighbours.push_back(bottomCell);
             }
         }
-        
+
         if (startingCell.getY() - 1 > -1) {
             if (!visitedArray[startingCell.getX()][startingCell.getY() - 1]) {
                 Coordinator leftCell;
@@ -90,9 +90,9 @@ vector<Edge> GrowingTree::generate() {
 //        if empty delete the current stating cell from visited visited
         } else {
             visitedCoordinators.erase(std::remove_if(visitedCoordinators.begin(), visitedCoordinators.end(),
-                                                     [&startingCell](const Coordinator& coordinator) {
+                                                     [&startingCell](const Coordinator &coordinator) {
                                                          return coordinator.getX() == startingCell.getX() &&
-                                                         coordinator.getY() == startingCell.getY();
+                                                                coordinator.getY() == startingCell.getY();
                                                      }), visitedCoordinators.end());
 //            if visited vector is not empty, randomize a new starting cell from visited vector
             if (!visitedCoordinators.empty()) {

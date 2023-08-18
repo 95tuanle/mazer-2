@@ -15,7 +15,7 @@ class Coordinator {
 private:
     int x;
     int y;
-    
+
 public:
     Coordinator();
 

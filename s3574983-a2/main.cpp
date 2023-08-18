@@ -23,23 +23,24 @@ using namespace chrono;
 // Declare functions
 void getUserInput();
 
-void printLineWith(const string& stringToPrint);
+void printLineWith(const string &stringToPrint);
 
-void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector<Edge>& vector, int width,
+void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector <Edge> &vector, int width,
              int height);
 
-void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector<Edge>& vector, int width,
-                int height);
+void
+saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector <Edge> &vector, int width,
+           int height);
 
-void printMazePath(const vector<Edge>& vector);
+void printMazePath(const vector <Edge> &vector);
 
 void benchmark();
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char *argv[]) {
     getUserInput();
-    
+
 //    benchmark();
-    
+
 //    RecursiveBacktracking growingTree;
 //    Generator *generator = &growingTree;
 //    generator->setSeed(333);
@@ -51,7 +52,7 @@ int main(int argc, const char * argv[]) {
 //    generator->setSeed(999);
 //    edgesVector = growingTree.generate();
 //    saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", edgesVector, 100, 100);
-    
+
 //    vector<int> tuan;
 //    tuan.push_back(0);
 //    tuan.push_back(1);
@@ -66,7 +67,7 @@ int main(int argc, const char * argv[]) {
 //    for (int i = 0; i < tuan.size(); i++) {
 //        cout << tuan[i] << endl;
 //    }
-    
+
     return 0;
 }
 
@@ -79,9 +80,9 @@ void getUserInput() {
     string NOT_LARGER_THAN_ZERO = "your specifications must be larger than 0";
     string EXIT = "exit";
     string userInput;
-    
+
     while (userInput != EXIT) { // check if user input is exit
-        vector<string> userInputVector; // create vector to store user input
+        vector <string> userInputVector; // create vector to store user input
         // userInputVector.clear();
         pair<int, bool> hasHuntAndKill;
         pair<int, bool> hasHuntAndKillOpt;
@@ -96,11 +97,11 @@ void getUserInput() {
         pair<int, bool> hasSaveBinary;
         pair<int, bool> hasSaveSvg;
         bool isValidInputFlag = false;
-        
+
         // get user input
         cout << "./mazer ";
-        getline (cin, userInput);
-        
+        getline(cin, userInput);
+
         // split it by space and add to vector
         stringstream stringStream(userInput);
         copy(istream_iterator<string>(stringStream), istream_iterator<string>(), back_inserter(userInputVector));
@@ -108,7 +109,7 @@ void getUserInput() {
         if (userInputVector[0] == EXIT) {
             break;
         }
-        
+
         // loop to check flag
         for (int i = 0; i < userInputVector.size(); ++i) {
             if (userInputVector[i] == "--gh") {
@@ -236,7 +237,7 @@ void getUserInput() {
         // check if input contains flags/flag
         if (isValidInputFlag) {
             bool canCallSaveFunctions = true;
-            vector<Edge> edgesVector;
+            vector <Edge> edgesVector;
             int mainWidth = 0;
             int mainHeight = 0;
             if (hasHuntAndKill.second) {
@@ -248,9 +249,9 @@ void getUserInput() {
                 // printLineWithInt(height);
                 try {
                     // convert input to int
-                    seed = stoi(userInputVector[hasHuntAndKill.first+1]);
-                    width = stoi(userInputVector[hasHuntAndKill.first+2]);
-                    height = stoi(userInputVector[hasHuntAndKill.first+3]);
+                    seed = stoi(userInputVector[hasHuntAndKill.first + 1]);
+                    width = stoi(userInputVector[hasHuntAndKill.first + 2]);
+                    height = stoi(userInputVector[hasHuntAndKill.first + 3]);
                     // cout << userInputVector[hasGen.first+1];
                     // cout << userInputVector[hasGen.first+2];
                     // cout << userInputVector[hasGen.first+3];
@@ -289,14 +290,14 @@ void getUserInput() {
                 // printLineWithInt(secondField);
                 try {
                     // convert input to int
-                    firstField = stoi(userInputVector[hasHuntAndKillOpt.first+1]);
-                    secondField = stoi(userInputVector[hasHuntAndKillOpt.first+2]);
+                    firstField = stoi(userInputVector[hasHuntAndKillOpt.first + 1]);
+                    secondField = stoi(userInputVector[hasHuntAndKillOpt.first + 2]);
                     // printLineWithInt(firstField);
                     // printLineWithInt(secondField);
                     int thirdField = 0;
                     // printLineWithInt(thirdField);
                     try {
-                        thirdField = stoi(userInputVector[hasHuntAndKillOpt.first+3]);
+                        thirdField = stoi(userInputVector[hasHuntAndKillOpt.first + 3]);
                         // printLineWithInt(thirdField);
                         if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
@@ -353,9 +354,9 @@ void getUserInput() {
                 int height = 0;
                 try {
                     // convert input to int
-                    seed = stoi(userInputVector[hasGrowingTree.first+1]);
-                    width = stoi(userInputVector[hasGrowingTree.first+2]);
-                    height = stoi(userInputVector[hasGrowingTree.first+3]);
+                    seed = stoi(userInputVector[hasGrowingTree.first + 1]);
+                    width = stoi(userInputVector[hasGrowingTree.first + 2]);
+                    height = stoi(userInputVector[hasGrowingTree.first + 3]);
                     if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling growing tree func");
@@ -386,11 +387,11 @@ void getUserInput() {
                 int secondField = 0;
                 try {
                     // convert input to int
-                    firstField = stoi(userInputVector[hasGrowingTreeOpt.first+1]);
-                    secondField = stoi(userInputVector[hasGrowingTreeOpt.first+2]);
+                    firstField = stoi(userInputVector[hasGrowingTreeOpt.first + 1]);
+                    secondField = stoi(userInputVector[hasGrowingTreeOpt.first + 2]);
                     int thirdField = 0;
                     try {
-                        thirdField = stoi(userInputVector[hasGrowingTreeOpt.first+3]);
+                        thirdField = stoi(userInputVector[hasGrowingTreeOpt.first + 3]);
                         if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling growing tree with optional seed func");
@@ -440,16 +441,16 @@ void getUserInput() {
                     printLineWith(WRONG_FORMAT_G_OPT_FLAG);
                 }
             }
-            
+
             if (hasPrim.second) {
                 int seed = 0;
                 int width = 0;
                 int height = 0;
                 try {
                     // convert input to int
-                    seed = stoi(userInputVector[hasPrim.first+1]);
-                    width = stoi(userInputVector[hasPrim.first+2]);
-                    height = stoi(userInputVector[hasPrim.first+3]);
+                    seed = stoi(userInputVector[hasPrim.first + 1]);
+                    width = stoi(userInputVector[hasPrim.first + 2]);
+                    height = stoi(userInputVector[hasPrim.first + 3]);
                     if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling prim's func");
@@ -480,11 +481,11 @@ void getUserInput() {
                 int secondField = 0;
                 try {
                     // convert input to int
-                    firstField = stoi(userInputVector[hasPrimOpt.first+1]);
-                    secondField = stoi(userInputVector[hasPrimOpt.first+2]);
+                    firstField = stoi(userInputVector[hasPrimOpt.first + 1]);
+                    secondField = stoi(userInputVector[hasPrimOpt.first + 2]);
                     int thirdField = 0;
                     try {
-                        thirdField = stoi(userInputVector[hasPrimOpt.first+3]);
+                        thirdField = stoi(userInputVector[hasPrimOpt.first + 3]);
                         if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling prim's with optional seed func");
@@ -540,9 +541,9 @@ void getUserInput() {
                 int height = 0;
                 try {
                     // convert input to int
-                    seed = stoi(userInputVector[hasRecursiveBacktracking.first+1]);
-                    width = stoi(userInputVector[hasRecursiveBacktracking.first+2]);
-                    height = stoi(userInputVector[hasRecursiveBacktracking.first+3]);
+                    seed = stoi(userInputVector[hasRecursiveBacktracking.first + 1]);
+                    width = stoi(userInputVector[hasRecursiveBacktracking.first + 2]);
+                    height = stoi(userInputVector[hasRecursiveBacktracking.first + 3]);
                     if (width > 0 && height > 0) {
                         canCallSaveFunctions = true;
 //                        printLineWith("calling recursive backtracking func");
@@ -573,11 +574,11 @@ void getUserInput() {
                 int secondField = 0;
                 try {
                     // convert input to int
-                    firstField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+1]);
-                    secondField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+2]);
+                    firstField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first + 1]);
+                    secondField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first + 2]);
                     int thirdField = 0;
                     try {
-                        thirdField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first+3]);
+                        thirdField = stoi(userInputVector[hasRecursiveBacktrackingOpt.first + 3]);
                         if (secondField > 0 && thirdField > 0) {
                             canCallSaveFunctions = true;
 //                            printLineWith("calling recursive backtracking with optional seed func");
@@ -627,7 +628,7 @@ void getUserInput() {
                     printLineWith(WRONG_FORMAT_G_OPT_FLAG);
                 }
             }
-            
+
             if (hasLoadBinary.second) {
                 // TODO build load binary function
                 // canCallSaveFunctions = true;
@@ -638,10 +639,11 @@ void getUserInput() {
                 // canCallSaveFunctions = true;
                 printLineWith("calling load SVG func");
             }
-            
+
             if ((hasHuntAndKill.second || hasHuntAndKillOpt.second || hasGrowingTree.second ||
-            hasGrowingTreeOpt.second || hasPrim.second || hasPrimOpt.second || hasRecursiveBacktracking.second ||
-            hasRecursiveBacktrackingOpt.second || hasLoadBinary.second || hasLoadSvg.second) && canCallSaveFunctions) {
+                 hasGrowingTreeOpt.second || hasPrim.second || hasPrimOpt.second || hasRecursiveBacktracking.second ||
+                 hasRecursiveBacktrackingOpt.second || hasLoadBinary.second || hasLoadSvg.second) &&
+                canCallSaveFunctions) {
                 if (hasSaveBinary.second) {
                     // TODO check file format and validate user input
 //                    printLineWith("calling save binary func");
@@ -671,12 +673,13 @@ void getUserInput() {
     }
 }
 
-void printLineWith(const string& stringToPrint) {
+void printLineWith(const string &stringToPrint) {
     cout << stringToPrint << endl;
 }
 
-void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector<Edge>& vector, int width,
-                int height) {
+void
+saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector <Edge> &vector, int width,
+           int height) {
     fstream binary(fileName, ios::binary | ios::in | ios::out | ios::trunc);
     if (!binary.is_open()) {
         printLineWith("error while opening the file");
@@ -685,45 +688,46 @@ void saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName
         binary.write((char *) &height, sizeof(height));
         long numberOfEdges = vector.size();
         binary.write((char *) &numberOfEdges, sizeof(width));
-        
-        for (auto & edge : vector) {
-            int x1 =  edge.getCoordinator1().getX();
-            int y1 =  edge.getCoordinator1().getY();
-            int x2 =  edge.getCoordinator2().getX();
-            int y2 =  edge.getCoordinator2().getY();
+
+        for (auto &edge: vector) {
+            int x1 = edge.getCoordinator1().getX();
+            int y1 = edge.getCoordinator1().getY();
+            int x2 = edge.getCoordinator2().getX();
+            int y2 = edge.getCoordinator2().getY();
             binary.write((char *) &x1, sizeof(x1));
             binary.write((char *) &y1, sizeof(y1));
             binary.write((char *) &x2, sizeof(x2));
             binary.write((char *) &y2, sizeof(y2));
         }
-        
+
         binary.seekg(0);
         binary.close();
     }
 }
 
-void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector<Edge>& vector, int width,
+void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector <Edge> &vector, int width,
              int height) {
     ofstream svg(fileName, ofstream::out);
-    svg << "<svg" << " viewBox=" << "\"0 0 " << width << " " << height << "\""<< " width" << "=" << "\"" << width*10
-    << "\"" << " height=\"" << height*10 << "\"" << " xmlns=" << "\"http://www.w3.org/2000/svg\">" << endl;
+    svg << "<svg" << " viewBox=" << "\"0 0 " << width << " " << height << "\"" << " width" << "=" << "\"" << width * 10
+        << "\"" << " height=\"" << height * 10 << "\"" << " xmlns=" << "\"http://www.w3.org/2000/svg\">" << endl;
     svg << "<rect width =" << "\'" << width << "\' " << "height=\'" << height << "\' " << "style=\'"
-    << "fill: black\' " << "/>" << endl;
-    for (auto & edge : vector) {
-        int x1 =  edge.getCoordinator1().getX();
-        int y1 =  edge.getCoordinator1().getY();
-        int x2 =  edge.getCoordinator2().getX();
-        int y2 =  edge.getCoordinator2().getY();
+        << "fill: black\' " << "/>" << endl;
+    for (auto &edge: vector) {
+        int x1 = edge.getCoordinator1().getX();
+        int y1 = edge.getCoordinator1().getY();
+        int x2 = edge.getCoordinator2().getX();
+        int y2 = edge.getCoordinator2().getY();
         svg << "<line stroke=\'" << "white\' " << "stroke-width=\'" << "0.5\'" << " x1=\'" << x1 << "\' y1=\'" << y1
-        << "\' x2=\'" << x2 << "\' y2=\'" << y2 << "\'/>" << endl;
+            << "\' x2=\'" << x2 << "\' y2=\'" << y2 << "\'/>" << endl;
     }
     svg << "</svg>";
     svg.close();
 }
 
-void printMazePath(const vector<Edge>& vector) {
-    for (auto & edge : vector) {
-        cout << edge.getCoordinator1().getX() << ":" << edge.getCoordinator1().getY() << " | " << edge.getCoordinator2().getX() << ":" << edge.getCoordinator2().getY() << endl;
+void printMazePath(const vector <Edge> &vector) {
+    for (auto &edge: vector) {
+        cout << edge.getCoordinator1().getX() << ":" << edge.getCoordinator1().getY() << " | "
+             << edge.getCoordinator2().getX() << ":" << edge.getCoordinator2().getY() << endl;
     }
 }
 
@@ -734,26 +738,28 @@ void benchmark() {
     generatorGrowingTree->setSeed(0);
     generatorGrowingTree->setWidth(2000);
     generatorGrowingTree->setHeight(2000);
-    vector<Edge> growingTreeVector;
+    vector <Edge> growingTreeVector;
     int totalGrowingTreeRuntime = 0;
     for (int i = 1; i <= 10; i++) {
         auto start = high_resolution_clock::now();
         growingTreeVector = growingTree.generate();
-        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", growingTreeVector, 2000, 200);
-        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze", growingTreeVector, 2000, 200);
+        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", growingTreeVector, 2000,
+                200);
+        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze", growingTreeVector, 2000,
+                   200);
         auto stop = high_resolution_clock::now();
         auto duration = duration_cast<milliseconds>(stop - start);
         totalGrowingTreeRuntime += duration.count();
     }
-    printLineWith("Average Growing Tree runtime is " + to_string(totalGrowingTreeRuntime/10) + " milliseconds");
-    
+    printLineWith("Average Growing Tree runtime is " + to_string(totalGrowingTreeRuntime / 10) + " milliseconds");
+
     // Prim's
     Prim prim;
     Generator *generatorPrim = &prim;
     generatorPrim->setSeed(0);
     generatorPrim->setWidth(2000);
     generatorPrim->setHeight(2000);
-    vector<Edge> primVector;
+    vector <Edge> primVector;
     int totalPrimRuntime = 0;
     for (int i = 1; i <= 10; i++) {
         auto start = high_resolution_clock::now();
@@ -764,24 +770,27 @@ void benchmark() {
         auto duration = duration_cast<milliseconds>(stop - start);
         totalPrimRuntime += duration.count();
     }
-    printLineWith("Average Prim's runtime is " + to_string(totalPrimRuntime/10) + " milliseconds");
-    
+    printLineWith("Average Prim's runtime is " + to_string(totalPrimRuntime / 10) + " milliseconds");
+
     // Recursive Backtracking
     RecursiveBacktracking recursiveBacktracking;
     Generator *generatorRecursiveBacktracking = &recursiveBacktracking;
     generatorRecursiveBacktracking->setSeed(0);
     generatorRecursiveBacktracking->setWidth(2000);
     generatorRecursiveBacktracking->setHeight(2000);
-    vector<Edge> recursiveBacktrackingVector;
+    vector <Edge> recursiveBacktrackingVector;
     int totalRecursiveBacktrackingRuntime = 0;
     for (int i = 1; i <= 10; i++) {
         auto start = high_resolution_clock::now();
         recursiveBacktrackingVector = recursiveBacktracking.generate();
-        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", recursiveBacktrackingVector, 2000, 200);
-        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze", recursiveBacktrackingVector, 2000, 200);
+        saveSvg((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.svg", recursiveBacktrackingVector,
+                2000, 200);
+        saveBinary((basic_string<char, char_traits<char>, allocator<char>> &) "xtuanleX.maze",
+                   recursiveBacktrackingVector, 2000, 200);
         auto stop = high_resolution_clock::now();
         auto duration = duration_cast<milliseconds>(stop - start);
         totalRecursiveBacktrackingRuntime += duration.count();
     }
-    printLineWith("Average Recursive Backtracking runtime is " + to_string(totalRecursiveBacktrackingRuntime/10) + " milliseconds");
+    printLineWith("Average Recursive Backtracking runtime is " + to_string(totalRecursiveBacktrackingRuntime / 10) +
+                  " milliseconds");
 }

@@ -12,11 +12,11 @@
 #include <stdio.h>
 #include "Generator.hpp"
 
-class HuntAndKill: public Generator {
-    
-    
+class HuntAndKill : public Generator {
+
+
 public:
-    vector<Edge> generate();
+    vector <Edge> generate();
 };
 
 #endif /* HuntAndKill_hpp */

@@ -20,7 +20,7 @@ private:
     int seed;
     int width;
     int height;
-    
+
 public:
     Generator();
 

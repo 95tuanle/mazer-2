@@ -12,11 +12,11 @@
 #include <stdio.h>
 #include "Generator.hpp"
 
-class RecursiveBacktracking: public Generator {
-    
-    
+class RecursiveBacktracking : public Generator {
+
+
 public:
-    vector<Edge> generate();
+    vector <Edge> generate();
 };
 
 #endif /* RecursiveBacktracking_hpp */

@@ -8,7 +8,7 @@
 
 #include "Prim.hpp"
 
-vector<Edge> Prim::generate() {
+vector <Edge> Prim::generate() {
 //    set up
     int seed = getSeed();
     srand(seed);
@@ -22,9 +22,9 @@ vector<Edge> Prim::generate() {
         }
     }
 //    create vector to store edges
-    vector<Edge> edges;
-    vector<Coordinator> frontiers;
-        
+    vector <Edge> edges;
+    vector <Coordinator> frontiers;
+
 //    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
@@ -40,7 +40,7 @@ vector<Edge> Prim::generate() {
             frontiers.push_back(topCell);
         }
     }
-    
+
     if (startingCell.getY() + 1 < width) {
         if (!visitedArray[startingCell.getX()][startingCell.getY() + 1]) {
             Coordinator rightCell;
@@ -49,7 +49,7 @@ vector<Edge> Prim::generate() {
             frontiers.push_back(rightCell);
         }
     }
-    
+
     if (startingCell.getX() + 1 < height) {
         if (!visitedArray[startingCell.getX() + 1][startingCell.getY()]) {
             Coordinator bottomCell;
@@ -58,7 +58,7 @@ vector<Edge> Prim::generate() {
             frontiers.push_back(bottomCell);
         }
     }
-    
+
     if (startingCell.getY() - 1 > -1) {
         if (!visitedArray[startingCell.getX()][startingCell.getY() - 1]) {
             Coordinator leftCell;
@@ -67,7 +67,7 @@ vector<Edge> Prim::generate() {
             frontiers.push_back(leftCell);
         }
     }
-    
+
     while (!frontiers.empty()) {
 //        randomize a new stating cell, mark it as visited, delete it from frontier list and prepare for adding it to edges
         int currentRandom = rand() % frontiers.size();
@@ -76,13 +76,13 @@ vector<Edge> Prim::generate() {
         edge.setCoordinator1(startingCell);
         visitedArray[startingCell.getX()][startingCell.getY()] = true;
         frontiers.erase(std::remove_if(frontiers.begin(), frontiers.end(),
-                                                 [&startingCell](const Coordinator& coordinator) {
-                                                     return coordinator.getX() == startingCell.getX() &&
-                                                     coordinator.getY() == startingCell.getY();
-                                                 }), frontiers.end());
+                                       [&startingCell](const Coordinator &coordinator) {
+                                           return coordinator.getX() == startingCell.getX() &&
+                                                  coordinator.getY() == startingCell.getY();
+                                       }), frontiers.end());
 //        index neighbours if neighbours are not visited, add it to frontier list, otherwise add it to visited neighbours
-        vector<Coordinator> visitedNeighbours;
-        
+        vector <Coordinator> visitedNeighbours;
+
         if (startingCell.getX() - 1 > -1) {
             Coordinator topCell;
             topCell.setX(startingCell.getX() - 1);
@@ -93,7 +93,7 @@ vector<Edge> Prim::generate() {
                 frontiers.push_back(topCell);
             }
         }
-        
+
         if (startingCell.getY() + 1 < width) {
             Coordinator rightCell;
             rightCell.setX(startingCell.getX());
@@ -104,7 +104,7 @@ vector<Edge> Prim::generate() {
                 frontiers.push_back(rightCell);
             }
         }
-        
+
         if (startingCell.getX() + 1 < height) {
             Coordinator bottomCell;
             bottomCell.setX(startingCell.getX() + 1);
@@ -115,7 +115,7 @@ vector<Edge> Prim::generate() {
                 frontiers.push_back(bottomCell);
             }
         }
-        
+
         if (startingCell.getY() - 1 > -1) {
             Coordinator leftCell;
             leftCell.setX(startingCell.getX());

@@ -9,7 +9,7 @@
 #include "RecursiveBacktracking.hpp"
 #include <stack>
 
-vector<Edge> RecursiveBacktracking::generate() {
+vector <Edge> RecursiveBacktracking::generate() {
 //    set up
     int seed = getSeed();
     srand(seed);
@@ -22,11 +22,11 @@ vector<Edge> RecursiveBacktracking::generate() {
             visitedArray[m][i] = false;
         }
     }
-    
+
 //    create vector to store edges
-    vector<Edge> edges;
-    stack<Coordinator> visitedCoordinators;
-    
+    vector <Edge> edges;
+    stack <Coordinator> visitedCoordinators;
+
 //    generate a random stating cell
     Coordinator startingCell;
     startingCell.setX(rand() % height);
@@ -39,8 +39,8 @@ vector<Edge> RecursiveBacktracking::generate() {
         bool keepKilling = true;
         while (keepKilling) {
 //            index unvisited neighbour coordinators
-            vector<Coordinator> neighbours;
-            
+            vector <Coordinator> neighbours;
+
             if (startingCell.getX() - 1 > -1) {
                 if (!visitedArray[startingCell.getX() - 1][startingCell.getY()]) {
                     Coordinator topCell;
@@ -49,7 +49,7 @@ vector<Edge> RecursiveBacktracking::generate() {
                     neighbours.push_back(topCell);
                 }
             }
-            
+
             if (startingCell.getY() + 1 < width) {
                 if (!visitedArray[startingCell.getX()][startingCell.getY() + 1]) {
                     Coordinator rightCell;
@@ -58,7 +58,7 @@ vector<Edge> RecursiveBacktracking::generate() {
                     neighbours.push_back(rightCell);
                 }
             }
-            
+
             if (startingCell.getX() + 1 < height) {
                 if (!visitedArray[startingCell.getX() + 1][startingCell.getY()]) {
                     Coordinator bottomCell;
@@ -67,7 +67,7 @@ vector<Edge> RecursiveBacktracking::generate() {
                     neighbours.push_back(bottomCell);
                 }
             }
-            
+
             if (startingCell.getY() - 1 > -1) {
                 if (!visitedArray[startingCell.getX()][startingCell.getY() - 1]) {
                     Coordinator leftCell;
