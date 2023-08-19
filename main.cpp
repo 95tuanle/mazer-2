@@ -11,7 +11,6 @@
 #include <fstream>
 #include <chrono>
 #include "Generator.hpp"
-#include "Coordinator.hpp"
 #include "Edge.hpp"
 #include "HuntAndKill.hpp"
 #include "GrowingTree.hpp"
@@ -25,14 +24,14 @@ void getUserInput();
 
 void printLineWith(const string &stringToPrint);
 
-void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector <Edge> &vector, int width,
+void saveSvg(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector<Edge> &vector, int width,
              int height);
 
 void
-saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector <Edge> &vector, int width,
+saveBinary(basic_string<char, char_traits<char>, allocator<char>> &fileName, const vector<Edge> &vector, int width,
            int height);
 
-void printMazePath(const vector <Edge> &vector);
+void printMazePath(const vector<Edge> &vector);
 
 void benchmark();
 
@@ -82,7 +81,7 @@ void getUserInput() {
     string userInput;
 
     while (userInput != EXIT) { // check if user input is exit
-        vector <string> userInputVector; // create vector to store user input
+        vector<string> userInputVector; // create vector to store user input
         // userInputVector.clear();
         pair<int, bool> hasHuntAndKill;
         pair<int, bool> hasHuntAndKillOpt;
@@ -237,7 +236,7 @@ void getUserInput() {
         // check if input contains flags/flag
         if (isValidInputFlag) {
             bool canCallSaveFunctions = true;
-            vector <Edge> edgesVector;
+            vector<Edge> edgesVector;
             int mainWidth = 0;
             int mainHeight = 0;
             if (hasHuntAndKill.second) {
@@ -327,7 +326,7 @@ void getUserInput() {
                             mainHeight = secondField;
                             HuntAndKill huntAndKill;
                             Generator *generator = &huntAndKill;
-                            int seed = (int) time(0);
+                            int seed = (int) time(nullptr);
                             printLineWith("Your seed is " + to_string(seed));
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
@@ -420,7 +419,7 @@ void getUserInput() {
                             mainHeight = secondField;
                             GrowingTree growingTree;
                             Generator *generator = &growingTree;
-                            int seed = (int) time(0);
+                            int seed = (int) time(nullptr);
                             printLineWith("Your seed is " + to_string(seed));
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
@@ -514,7 +513,7 @@ void getUserInput() {
                             mainHeight = secondField;
                             Prim prim;
                             Generator *generator = &prim;
-                            int seed = (int) time(0);
+                            int seed = (int) time(nullptr);
                             printLineWith("Your seed is " + to_string(seed));
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
@@ -607,7 +606,7 @@ void getUserInput() {
                             mainHeight = secondField;
                             RecursiveBacktracking recursiveBacktracking;
                             Generator *generator = &recursiveBacktracking;
-                            int seed = (int) time(0);
+                            int seed = (int) time(nullptr);
                             printLineWith("Your seed is " + to_string(seed));
                             generator->setSeed(seed);
                             generator->setWidth(firstField);
@@ -738,7 +737,7 @@ void benchmark() {
     generatorGrowingTree->setSeed(0);
     generatorGrowingTree->setWidth(2000);
     generatorGrowingTree->setHeight(2000);
-    vector <Edge> growingTreeVector;
+    vector<Edge> growingTreeVector;
     int totalGrowingTreeRuntime = 0;
     for (int i = 1; i <= 10; i++) {
         auto start = high_resolution_clock::now();
@@ -759,7 +758,7 @@ void benchmark() {
     generatorPrim->setSeed(0);
     generatorPrim->setWidth(2000);
     generatorPrim->setHeight(2000);
-    vector <Edge> primVector;
+    vector<Edge> primVector;
     int totalPrimRuntime = 0;
     for (int i = 1; i <= 10; i++) {
         auto start = high_resolution_clock::now();
@@ -778,7 +777,7 @@ void benchmark() {
     generatorRecursiveBacktracking->setSeed(0);
     generatorRecursiveBacktracking->setWidth(2000);
     generatorRecursiveBacktracking->setHeight(2000);
-    vector <Edge> recursiveBacktrackingVector;
+    vector<Edge> recursiveBacktrackingVector;
     int totalRecursiveBacktrackingRuntime = 0;
     for (int i = 1; i <= 10; i++) {
         auto start = high_resolution_clock::now();

@@ -9,7 +9,7 @@
 #ifndef Generator_hpp
 #define Generator_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include <vector>
 #include "Edge.hpp"
 
@@ -17,9 +17,9 @@ using namespace std;
 
 class Generator {
 private:
-    int seed;
-    int width;
-    int height;
+    int seed{};
+    int width{};
+    int height{};
 
 public:
     Generator();
@@ -30,15 +30,15 @@ public:
 
     int getSeed() const;
 
-    void setSeed(int seed);
+    void setSeed(int newSeed);
 
     int getWidth() const;
 
-    void setWidth(int width);
+    void setWidth(int newWidth);
 
     int getHeight() const;
 
-    void setHeight(int height);
+    void setHeight(int newHeight);
 };
 
 #endif /* Generator_hpp */

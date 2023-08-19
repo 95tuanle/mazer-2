@@ -9,7 +9,7 @@
 #ifndef Edge_hpp
 #define Edge_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include "Coordinator.hpp"
 
 class Edge {
@@ -26,11 +26,11 @@ public:
 
     const Coordinator &getCoordinator1() const;
 
-    void setCoordinator1(const Coordinator &coordinator1);
+    void setCoordinator1(const Coordinator &newCoordinator1);
 
     const Coordinator &getCoordinator2() const;
 
-    void setCoordinator2(const Coordinator &coordinator2);
+    void setCoordinator2(const Coordinator &newCoordinator2);
 };
 
 #endif /* Edge_hpp */

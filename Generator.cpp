@@ -8,34 +8,32 @@
 
 #include "Generator.hpp"
 
-Generator::Generator() {}
+Generator::Generator() = default;
 
 Generator::Generator(int seed, int width, int height) : seed(seed), width(width), height(height) {}
 
-Generator::~Generator() {
-
-}
+Generator::~Generator() = default;
 
 int Generator::getSeed() const {
     return seed;
 }
 
-void Generator::setSeed(int seed) {
-    Generator::seed = seed;
+void Generator::setSeed(int newSeed) {
+    Generator::seed = newSeed;
 }
 
 int Generator::getWidth() const {
     return width;
 }
 
-void Generator::setWidth(int width) {
-    Generator::width = width;
+void Generator::setWidth(int newWidth) {
+    Generator::width = newWidth;
 }
 
 int Generator::getHeight() const {
     return height;
 }
 
-void Generator::setHeight(int height) {
-    Generator::height = height;
+void Generator::setHeight(int newHeight) {
+    Generator::height = newHeight;
 }

@@ -9,14 +9,14 @@
 #ifndef Prim_hpp
 #define Prim_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include "Generator.hpp"
 
 class Prim : public Generator {
 
 
 public:
-    vector <Edge> generate();
+    vector<Edge> generate();
 };
 
 #endif /* Prim_hpp */

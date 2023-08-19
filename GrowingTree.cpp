@@ -8,7 +8,7 @@
 
 #include "GrowingTree.hpp"
 
-vector <Edge> GrowingTree::generate() {
+vector<Edge> GrowingTree::generate() {
 //    set up
     int seed = getSeed();
     srand(seed);
@@ -23,8 +23,8 @@ vector <Edge> GrowingTree::generate() {
     }
 
 //    create vector to store edges
-    vector <Edge> edges;
-    vector <Coordinator> visitedCoordinators;
+    vector<Edge> edges;
+    vector<Coordinator> visitedCoordinators;
 
 //    generate a random stating cell
     Coordinator startingCell;
@@ -36,7 +36,7 @@ vector <Edge> GrowingTree::generate() {
 
     while (!visitedCoordinators.empty()) {
 //        index unvisited neighbour coordinators
-        vector <Coordinator> neighbours;
+        vector<Coordinator> neighbours;
 
         if (startingCell.getX() - 1 > -1) {
             if (!visitedArray[startingCell.getX() - 1][startingCell.getY()]) {

@@ -8,7 +8,7 @@
 
 #include "Coordinator.hpp"
 
-Coordinator::Coordinator() {}
+Coordinator::Coordinator() = default;
 
 Coordinator::Coordinator(int x, int y) : x(x), y(y) {}
 
@@ -16,18 +16,16 @@ int Coordinator::getX() const {
     return x;
 }
 
-void Coordinator::setX(int x) {
-    Coordinator::x = x;
+void Coordinator::setX(int newX) {
+    Coordinator::x = newX;
 }
 
 int Coordinator::getY() const {
     return y;
 }
 
-void Coordinator::setY(int y) {
-    Coordinator::y = y;
+void Coordinator::setY(int newY) {
+    Coordinator::y = newY;
 }
 
-Coordinator::~Coordinator() {
-
-}
+Coordinator::~Coordinator() = default;

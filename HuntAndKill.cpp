@@ -8,7 +8,7 @@
 
 #include "HuntAndKill.hpp"
 
-vector <Edge> HuntAndKill::generate() {
+vector<Edge> HuntAndKill::generate() {
     int seed = getSeed();
     srand(seed);
     int height = getHeight();
@@ -22,7 +22,7 @@ vector <Edge> HuntAndKill::generate() {
     }
 
     //    create vector to store edges
-    vector <Edge> edges;
+    vector<Edge> edges;
 
     bool keepHunting = true;
     bool keepKilling = true;
@@ -53,7 +53,7 @@ vector <Edge> HuntAndKill::generate() {
         while (keepKilling) {
 
             //                create a vector to store neighbour cell
-            vector <Coordinator> neighbours;
+            vector<Coordinator> neighbours;
             //                looking for neighbours
 
             if (startingCell.getX() - 1 > -1) {
@@ -95,8 +95,8 @@ vector <Edge> HuntAndKill::generate() {
                 int currentRandom = rand() % neighbours.size();
                 bool addingRandom = true;
                 //                    check if randomized neighbour is checked or not
-                for (int i = 0; i < randomizedNeighbours.size(); ++i) {
-                    if (randomizedNeighbours[i] == currentRandom) {
+                for (int randomizedNeighbour: randomizedNeighbours) {
+                    if (randomizedNeighbour == currentRandom) {
                         addingRandom = false;
                         break;
                     }
@@ -133,14 +133,14 @@ vector <Edge> HuntAndKill::generate() {
         //        loop from left to right, top to bottom to find unvisited cell
         for (int k = 0; k < height; ++k) {
             for (int i = 0; i < width; ++i) {
-                //                if unvisited step into an check
+                //                if unvisited step into a check
                 if (!visitedArray[k][i]) {
-                    //                    assume it has a least one
+                    //                    assume it has at least one
                     startingCell.setX(k);
                     startingCell.setY(i);
 
                     //                    create a vector to store neighbour cell
-                    vector <Coordinator> neighbours;
+                    vector<Coordinator> neighbours;
                     if (startingCell.getX() - 1 > -1) {
                         Coordinator topCell;
                         topCell.setX(startingCell.getX() - 1);
@@ -169,8 +169,7 @@ vector <Edge> HuntAndKill::generate() {
                         neighbours.push_back(leftCell);
                     }
                     //                    check if any neighbour is visited, if not break to find the next cel
-                    for (int j = 0; j < neighbours.size(); ++j) {
-                        Coordinator neighbour = neighbours[j];
+                    for (auto neighbour: neighbours) {
                         if (visitedArray[neighbour.getX()][neighbour.getY()]) {
                             foundStarting = true;
                             break;
@@ -188,8 +187,8 @@ vector <Edge> HuntAndKill::generate() {
                             int currentRandom = rand() % neighbours.size();
                             bool addingRandom = true;
                             //                            check if randomized neighbour is checked or not
-                            for (int m = 0; m < randomizedNeighbours.size(); ++m) {
-                                if (randomizedNeighbours[m] == currentRandom) {
+                            for (int randomizedNeighbour: randomizedNeighbours) {
+                                if (randomizedNeighbour == currentRandom) {
                                     addingRandom = false;
                                     break;
                                 }
@@ -201,7 +200,7 @@ vector <Edge> HuntAndKill::generate() {
                                 //                                check if visited
                                 if (visitedArray[neighbour.getX()][neighbour.getY()]) {
                                     keepSeeking = false;
-                                    //                                    mark the starting cell is visisted
+                                    //                                    mark the starting cell is visited
                                     visitedArray[startingCell.getX()][startingCell.getY()] = true;
                                     //                                    add edge
                                     Edge edge1;
@@ -227,7 +226,7 @@ vector <Edge> HuntAndKill::generate() {
                 break;
             }
         }
-        //        check if need hunting
+        //        check if it needs hunting
         for (int l = 0; l < height; ++l) {
             for (int i = 0; i < width; ++i) {
                 if (!visitedArray[l][i]) {

@@ -9,14 +9,14 @@
 #ifndef RecursiveBacktracking_hpp
 #define RecursiveBacktracking_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include "Generator.hpp"
 
 class RecursiveBacktracking : public Generator {
 
 
 public:
-    vector <Edge> generate();
+    vector<Edge> generate();
 };
 
 #endif /* RecursiveBacktracking_hpp */

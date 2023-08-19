@@ -9,14 +9,14 @@
 #ifndef HuntAndKill_hpp
 #define HuntAndKill_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include "Generator.hpp"
 
 class HuntAndKill : public Generator {
 
 
 public:
-    vector <Edge> generate();
+    vector<Edge> generate();
 };
 
 #endif /* HuntAndKill_hpp */

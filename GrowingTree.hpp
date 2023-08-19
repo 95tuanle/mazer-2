@@ -9,14 +9,14 @@
 #ifndef GrowingTree_hpp
 #define GrowingTree_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include "Generator.hpp"
 
 class GrowingTree : public Generator {
 
 
 public:
-    vector <Edge> generate();
+    vector<Edge> generate();
 };
 
 #endif /* GrowingTree_hpp */

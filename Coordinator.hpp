@@ -9,12 +9,12 @@
 #ifndef Coordinator_hpp
 #define Coordinator_hpp
 
-#include <stdio.h>
+#include <cstdio>
 
 class Coordinator {
 private:
-    int x;
-    int y;
+    int x{};
+    int y{};
 
 public:
     Coordinator();
@@ -25,11 +25,11 @@ public:
 
     int getX() const;
 
-    void setX(int x);
+    void setX(int newX);
 
     int getY() const;
 
-    void setY(int y);
+    void setY(int newY);
 };
 
 #endif /* Coordinator_hpp */

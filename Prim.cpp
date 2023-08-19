@@ -8,7 +8,7 @@
 
 #include "Prim.hpp"
 
-vector <Edge> Prim::generate() {
+vector<Edge> Prim::generate() {
 //    set up
     int seed = getSeed();
     srand(seed);
@@ -22,8 +22,8 @@ vector <Edge> Prim::generate() {
         }
     }
 //    create vector to store edges
-    vector <Edge> edges;
-    vector <Coordinator> frontiers;
+    vector<Edge> edges;
+    vector<Coordinator> frontiers;
 
 //    generate a random stating cell
     Coordinator startingCell;
@@ -81,7 +81,7 @@ vector <Edge> Prim::generate() {
                                                   coordinator.getY() == startingCell.getY();
                                        }), frontiers.end());
 //        index neighbours if neighbours are not visited, add it to frontier list, otherwise add it to visited neighbours
-        vector <Coordinator> visitedNeighbours;
+        vector<Coordinator> visitedNeighbours;
 
         if (startingCell.getX() - 1 > -1) {
             Coordinator topCell;
