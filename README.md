@@ -57,10 +57,18 @@ Student: _Le Nguyen Anh Tuan (s3574983)_
     - **If you want to switch into benchmarking mode, please comment out `getUserInput();`, uncomment `benchmark();` in
       main function of `main.cpp` and compile + build + run the project
       again. _It will take more than three hours to complete._**
+- Benchmark cases
 
-    - Benchmark results
+    - 10 times of generating Growing Tree maze (2000 x 2000) + saving SVG + saving binary
 
-        - Benchmark [setup](https://github.com/95tuanle/Mazer-2/blob/master/Setup.png)
+    - 10 times of generating Prim's maze (2000 x 2000) + saving SVG + saving binary
+
+    - 10 times of generating Recursive Backtracking maze (2000 x 2000) + saving SVG + saving binary
+
+- Benchmark results
+
+    - 2019
+        - [Setup](https://github.com/95tuanle/Mazer-2/blob/master/Setup-2019.png)
 
             - Processor 2-core 4-thread Intel Core i5-5257U@2.7 GHz
 
@@ -70,21 +78,31 @@ Student: _Le Nguyen Anh Tuan (s3574983)_
 
             - OS macOS Mojave version 10.14.4
 
-        - Benchmark cases
+        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Results-2019.png)
 
-            - 10 times of generating Growing Tree maze (2000 x 2000) + saving SVG + saving binary
+            - Average Growing Tree runtime is 611010 milliseconds
 
-            - 10 times of generating Prim's maze (2000 x 2000) + saving SVG + saving binary
+            - Average Prim's runtime is 584978 milliseconds
 
-            - 10 times of generating Recursive Backtracking maze (2000 x 2000) + saving SVG + saving binary
+            - Average Recursive Backtracking runtime is 40084 milliseconds
 
-        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Results.png)
+    - 2023
+        - [Setup](https://github.com/95tuanle/Mazer-2/blob/master/Setup-2023.png)
+            - Processor 10(8+2)-core Apple M1 Max@3.2 GHz
 
-      Average Growing Tree runtime is 611010 milliseconds
+            - Memory 24 GB LPDDR5-6400
 
-      Average Prim's runtime is 584978 milliseconds
+            - Graphics 24-core Apple GPU
 
-      Average Recursive Backtracking runtime is 40084 milliseconds
+            - OS macOS Venture version 13.5.1
+
+        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Setup-2023.png)
+
+            - Average Growing Tree runtime is 233786 milliseconds
+
+            - Average Prim's runtime is 223213 milliseconds
+
+            - Average Recursive Backtracking runtime is 12814 milliseconds
 
 ~~Unaccomplished functions:~~
 
