@@ -96,7 +96,7 @@ Student: _Le Nguyen Anh Tuan (s3574983)_
 
             - OS macOS Venture version 13.5.1
 
-        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Setup-2023.png)
+        - [Results](https://github.com/95tuanle/Mazer-2/blob/master/Results-2023.png)
 
             - Average Growing Tree runtime is 233786 milliseconds
 
