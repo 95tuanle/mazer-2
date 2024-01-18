@@ -7,7 +7,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 include_directories(.)
 
-add_executable(Mazer
+add_executable(mazer-two
         Coordinator.cpp
         Coordinator.hpp
         Edge.cpp
