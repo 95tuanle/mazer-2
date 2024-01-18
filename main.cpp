@@ -38,7 +38,7 @@ void benchmark();
 int main(int argc, const char *argv[]) {
     getUserInput();
 
-//    benchmark();
+    // benchmark();
 
 //    RecursiveBacktracking growingTree;
 //    Generator *generator = &growingTree;

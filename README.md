@@ -24,7 +24,7 @@ Student: _Le Nguyen Anh Tuan (s3574983)_
 
 4. Run project (execution file)
 
-   `./s3574983_a2`
+   `./Mazer`
 
 **Accomplished functions:**
 
